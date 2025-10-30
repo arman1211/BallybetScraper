@@ -1,0 +1,4885 @@
+{
+  "group": {
+    "id": 1,
+    "boCount": 93508,
+    "groups": [
+      {
+        "id": 1000093190,
+        "name": "Football",
+        "boCount": 76804,
+        "englishName": "Football",
+        "groups": [
+          {
+            "id": 1000461733,
+            "name": "England",
+            "boCount": 7941,
+            "englishName": "England",
+            "groups": [
+              {
+                "id": 1000094985,
+                "name": "Premier League",
+                "boCount": 4890,
+                "englishName": "Premier League",
+                "sport": "FOOTBALL",
+                "eventCount": 68,
+                "termKey": "premier_league",
+                "sortOrder": "1"
+              },
+              {
+                "id": 1000094986,
+                "name": "EFL Cup",
+                "boCount": 1,
+                "englishName": "EFL Cup",
+                "sport": "FOOTBALL",
+                "eventCount": 9,
+                "termKey": "efl_cup"
+              },
+              {
+                "id": 1000095137,
+                "name": "EFL Trophy",
+                "boCount": 1,
+                "englishName": "EFL Trophy",
+                "sport": "FOOTBALL",
+                "eventCount": 1,
+                "termKey": "efl_trophy"
+              },
+              {
+                "id": 1000094984,
+                "name": "FA Cup",
+                "boCount": 1,
+                "englishName": "FA Cup",
+                "sport": "FOOTBALL",
+                "eventCount": 1,
+                "termKey": "fa_cup"
+              },
+              {
+                "id": 1000094982,
+                "name": "League One",
+                "boCount": 1282,
+                "englishName": "League One",
+                "sport": "FOOTBALL",
+                "eventCount": 41,
+                "termKey": "league_one"
+              },
+              {
+                "id": 1000094987,
+                "name": "League Two",
+                "boCount": 1101,
+                "englishName": "League Two",
+                "sport": "FOOTBALL",
+                "eventCount": 42,
+                "termKey": "league_two"
+              },
+              {
+                "id": 2000055849,
+                "name": "Super League (W)",
+                "boCount": 363,
+                "englishName": "Super League (W)",
+                "sport": "FOOTBALL",
+                "eventCount": 11,
+                "termKey": "super_league__w_"
+              },
+              {
+                "id": 1000094981,
+                "name": "The Championship",
+                "boCount": 302,
+                "englishName": "The Championship",
+                "sport": "FOOTBALL",
+                "eventCount": 57,
+                "termKey": "the_championship"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 273,
+            "termKey": "england",
+            "sortOrder": "1"
+          },
+          {
+            "id": 1000461813,
+            "name": "Spain",
+            "boCount": 6487,
+            "englishName": "Spain",
+            "groups": [
+              {
+                "id": 1000095049,
+                "name": "La Liga",
+                "boCount": 4743,
+                "englishName": "La Liga",
+                "sport": "FOOTBALL",
+                "eventCount": 41,
+                "termKey": "la_liga",
+                "sortOrder": "1"
+              },
+              {
+                "id": 1000095050,
+                "name": "Copa del Rey",
+                "boCount": 1,
+                "englishName": "Copa del Rey",
+                "sport": "FOOTBALL",
+                "eventCount": 1,
+                "termKey": "copa_del_rey"
+              },
+              {
+                "id": 1000094708,
+                "name": "La Liga 2",
+                "boCount": 1223,
+                "englishName": "La Liga 2",
+                "sport": "FOOTBALL",
+                "eventCount": 50,
+                "termKey": "la_liga_2"
+              },
+              {
+                "id": 2000051626,
+                "name": "Primera División (W)",
+                "boCount": 47,
+                "englishName": "Primera División (W)",
+                "sport": "FOOTBALL",
+                "eventCount": 3,
+                "termKey": "primera_division__w_"
+              },
+              {
+                "id": 2000131374,
+                "name": "Primera RFEF 1",
+                "boCount": 104,
+                "englishName": "Primera RFEF 1",
+                "sport": "FOOTBALL",
+                "eventCount": 6,
+                "termKey": "primera_rfef_1"
+              },
+              {
+                "id": 2000131375,
+                "name": "Primera RFEF 2",
+                "boCount": 55,
+                "englishName": "Primera RFEF 2",
+                "sport": "FOOTBALL",
+                "eventCount": 3,
+                "termKey": "primera_rfef_2"
+              },
+              {
+                "id": 2000074384,
+                "name": "Segunda Federación (W)",
+                "boCount": 30,
+                "englishName": "Segunda Federación (W)",
+                "sport": "FOOTBALL",
+                "eventCount": 6,
+                "termKey": "segunda_federacion__w_"
+              },
+              {
+                "id": 1000094816,
+                "name": "Segunda RFEF 1",
+                "boCount": 155,
+                "englishName": "Segunda RFEF 1",
+                "sport": "FOOTBALL",
+                "eventCount": 6,
+                "termKey": "segunda_rfef_1"
+              },
+              {
+                "id": 1000094817,
+                "name": "Segunda RFEF 2",
+                "boCount": 77,
+                "englishName": "Segunda RFEF 2",
+                "sport": "FOOTBALL",
+                "eventCount": 4,
+                "termKey": "segunda_rfef_2"
+              },
+              {
+                "id": 1000094818,
+                "name": "Segunda RFEF 3",
+                "boCount": 26,
+                "englishName": "Segunda RFEF 3",
+                "sport": "FOOTBALL",
+                "eventCount": 7,
+                "termKey": "segunda_rfef_3"
+              },
+              {
+                "id": 2000127579,
+                "name": "Segunda RFEF 5",
+                "boCount": 26,
+                "englishName": "Segunda RFEF 5",
+                "sport": "FOOTBALL",
+                "eventCount": 6,
+                "termKey": "segunda_rfef_5"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 244,
+            "termKey": "spain",
+            "sortOrder": "2"
+          },
+          {
+            "id": 1000461728,
+            "name": "Germany",
+            "boCount": 4441,
+            "englishName": "Germany",
+            "groups": [
+              {
+                "id": 1000094995,
+                "name": "DFB Pokal",
+                "boCount": 1,
+                "englishName": "DFB Pokal",
+                "sport": "FOOTBALL",
+                "eventCount": 17,
+                "termKey": "dfb_pokal",
+                "sortOrder": "1"
+              },
+              {
+                "id": 1000094994,
+                "name": "Bundesliga",
+                "boCount": 3932,
+                "englishName": "Bundesliga",
+                "sport": "FOOTBALL",
+                "eventCount": 35,
+                "termKey": "bundesliga",
+                "sortOrder": "2"
+              },
+              {
+                "id": 1000094993,
+                "name": "2. Bundesliga",
+                "boCount": 435,
+                "englishName": "2. Bundesliga",
+                "sport": "FOOTBALL",
+                "eventCount": 31,
+                "termKey": "2__bundesliga"
+              },
+              {
+                "id": 1000355562,
+                "name": "3. Liga",
+                "boCount": 73,
+                "englishName": "3. Liga",
+                "sport": "FOOTBALL",
+                "eventCount": 33,
+                "termKey": "3__liga"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 139,
+            "termKey": "germany",
+            "sortOrder": "3"
+          },
+          {
+            "id": 1000461745,
+            "name": "Italy",
+            "boCount": 5140,
+            "englishName": "Italy",
+            "groups": [
+              {
+                "id": 1000095001,
+                "name": "Serie A",
+                "boCount": 4622,
+                "englishName": "Serie A",
+                "sport": "FOOTBALL",
+                "eventCount": 54,
+                "termKey": "serie_a",
+                "sortOrder": "1"
+              },
+              {
+                "id": 1000094998,
+                "name": "Coppa Italia",
+                "boCount": 1,
+                "englishName": "Coppa Italia",
+                "sport": "FOOTBALL",
+                "eventCount": 1,
+                "termKey": "coppa_italia"
+              },
+              {
+                "id": 1000095002,
+                "name": "Serie B",
+                "boCount": 329,
+                "englishName": "Serie B",
+                "sport": "FOOTBALL",
+                "eventCount": 45,
+                "termKey": "serie_b"
+              },
+              {
+                "id": 2000079607,
+                "name": "Serie C Girone A",
+                "boCount": 35,
+                "englishName": "Serie C Girone A",
+                "sport": "FOOTBALL",
+                "eventCount": 6,
+                "termKey": "serie_c_girone_a"
+              },
+              {
+                "id": 2000079609,
+                "name": "Serie C Girone C",
+                "boCount": 51,
+                "englishName": "Serie C Girone C",
+                "sport": "FOOTBALL",
+                "eventCount": 7,
+                "termKey": "serie_c_girone_c"
+              },
+              {
+                "id": 2000121332,
+                "name": "Serie D Girone A",
+                "boCount": 12,
+                "englishName": "Serie D Girone A",
+                "sport": "FOOTBALL",
+                "eventCount": 2,
+                "termKey": "serie_d_girone_a"
+              },
+              {
+                "id": 2000121333,
+                "name": "Serie D Girone B",
+                "boCount": 6,
+                "englishName": "Serie D Girone B",
+                "sport": "FOOTBALL",
+                "eventCount": 1,
+                "termKey": "serie_d_girone_b"
+              },
+              {
+                "id": 2000121334,
+                "name": "Serie D Girone C",
+                "boCount": 6,
+                "englishName": "Serie D Girone C",
+                "sport": "FOOTBALL",
+                "eventCount": 3,
+                "termKey": "serie_d_girone_c"
+              },
+              {
+                "id": 2000121335,
+                "name": "Serie D Girone D",
+                "boCount": 18,
+                "englishName": "Serie D Girone D",
+                "sport": "FOOTBALL",
+                "eventCount": 3,
+                "termKey": "serie_d_girone_d"
+              },
+              {
+                "id": 2000121337,
+                "name": "Serie D Girone E",
+                "boCount": 12,
+                "englishName": "Serie D Girone E",
+                "sport": "FOOTBALL",
+                "eventCount": 2,
+                "termKey": "serie_d_girone_e"
+              },
+              {
+                "id": 2000121338,
+                "name": "Serie D Girone F",
+                "boCount": 12,
+                "englishName": "Serie D Girone F",
+                "sport": "FOOTBALL",
+                "eventCount": 2,
+                "termKey": "serie_d_girone_f"
+              },
+              {
+                "id": 2000121339,
+                "name": "Serie D Girone G",
+                "boCount": 12,
+                "englishName": "Serie D Girone G",
+                "sport": "FOOTBALL",
+                "eventCount": 2,
+                "termKey": "serie_d_girone_g"
+              },
+              {
+                "id": 2000121340,
+                "name": "Serie D Girone H",
+                "boCount": 18,
+                "englishName": "Serie D Girone H",
+                "sport": "FOOTBALL",
+                "eventCount": 3,
+                "termKey": "serie_d_girone_h"
+              },
+              {
+                "id": 2000121341,
+                "name": "Serie D Girone I",
+                "boCount": 6,
+                "englishName": "Serie D Girone I",
+                "sport": "FOOTBALL",
+                "eventCount": 1,
+                "termKey": "serie_d_girone_i"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 144,
+            "termKey": "italy",
+            "sortOrder": "4"
+          },
+          {
+            "id": 1000461727,
+            "name": "France",
+            "boCount": 4536,
+            "englishName": "France",
+            "groups": [
+              {
+                "id": 1000094991,
+                "name": "Ligue 1",
+                "boCount": 4514,
+                "englishName": "Ligue 1",
+                "sport": "FOOTBALL",
+                "eventCount": 44,
+                "termKey": "ligue_1",
+                "sortOrder": "1"
+              },
+              {
+                "id": 1000094825,
+                "name": "Championnat National",
+                "boCount": 21,
+                "englishName": "Championnat National",
+                "sport": "FOOTBALL",
+                "eventCount": 1,
+                "termKey": "championnat_national"
+              },
+              {
+                "id": 1000094990,
+                "name": "Coupe de France",
+                "boCount": 1,
+                "englishName": "Coupe de France",
+                "sport": "FOOTBALL",
+                "eventCount": 1,
+                "termKey": "coupe_de_france"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 82,
+            "termKey": "france",
+            "sortOrder": "5"
+          },
+          {
+            "id": 1000461741,
+            "name": "Brazil",
+            "boCount": 10800,
+            "englishName": "Brazil",
+            "groups": [
+              {
+                "id": 1000094569,
+                "name": "Brasileirao Serie A",
+                "boCount": 5668,
+                "englishName": "Brasileirao Serie A",
+                "sport": "FOOTBALL",
+                "eventCount": 76,
+                "termKey": "brasileirao_serie_a",
+                "sortOrder": "1"
+              },
+              {
+                "id": 1000094431,
+                "name": "Brasileirao Serie B",
+                "boCount": 4604,
+                "englishName": "Brasileirao Serie B",
+                "sport": "FOOTBALL",
+                "eventCount": 53,
+                "termKey": "brasileirao_serie_b"
+              },
+              {
+                "id": 2000055538,
+                "name": "Brasileirao Serie C",
+                "boCount": 504,
+                "englishName": "Brasileirao Serie C",
+                "sport": "FOOTBALL",
+                "eventCount": 6,
+                "termKey": "brasileirao_serie_c"
+              },
+              {
+                "id": 1000093998,
+                "name": "Copa do Brasil",
+                "boCount": 1,
+                "englishName": "Copa do Brasil",
+                "sport": "FOOTBALL",
+                "eventCount": 1,
+                "termKey": "copa_do_brasil"
+              },
+              {
+                "id": 2000066940,
+                "name": "Copa Paulista",
+                "boCount": 23,
+                "englishName": "Copa Paulista",
+                "sport": "FOOTBALL",
+                "eventCount": 2,
+                "termKey": "copa_paulista"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 210,
+            "termKey": "brazil",
+            "sortOrder": "6"
+          },
+          {
+            "id": 1000461754,
+            "name": "Argentina",
+            "boCount": 3242,
+            "englishName": "Argentina",
+            "groups": [
+              {
+                "id": 2000050561,
+                "name": "Liga Profesional Argentina",
+                "boCount": 2663,
+                "englishName": "Liga Profesional Argentina",
+                "sport": "FOOTBALL",
+                "eventCount": 53,
+                "termKey": "liga_profesional_argentina",
+                "sortOrder": "2"
+              },
+              {
+                "id": 2000056748,
+                "name": "Copa Argentina",
+                "boCount": 1,
+                "englishName": "Copa Argentina",
+                "sport": "FOOTBALL",
+                "eventCount": 2,
+                "termKey": "copa_argentina",
+                "sortOrder": "3"
+              },
+              {
+                "id": 1000442572,
+                "name": "Primera B Nacional",
+                "boCount": 327,
+                "englishName": "Primera B Nacional",
+                "sport": "FOOTBALL",
+                "eventCount": 9,
+                "termKey": "primera_b_nacional",
+                "sortOrder": "4"
+              },
+              {
+                "id": 2000052332,
+                "name": "Primera B Metropolitana",
+                "boCount": 69,
+                "englishName": "Primera B Metropolitana",
+                "sport": "FOOTBALL",
+                "eventCount": 3,
+                "termKey": "primera_b_metropolitana"
+              },
+              {
+                "id": 2000087788,
+                "name": "Torneo Federal A",
+                "boCount": 182,
+                "englishName": "Torneo Federal A",
+                "sport": "FOOTBALL",
+                "eventCount": 9,
+                "termKey": "torneo_federal_a"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 119,
+            "termKey": "argentina",
+            "sortOrder": "7"
+          },
+          {
+            "id": 2000086372,
+            "name": "World Cup Qualifying - Europe",
+            "boCount": 558,
+            "englishName": "World Cup Qualifying - Europe",
+            "sport": "FOOTBALL",
+            "eventCount": 59,
+            "termKey": "world_cup_qualifying_-_europe",
+            "sortOrder": "8"
+          },
+          {
+            "id": 1000093381,
+            "name": "Champions League",
+            "boCount": 5411,
+            "englishName": "Champions League",
+            "sport": "FOOTBALL",
+            "eventCount": 23,
+            "termKey": "champions_league",
+            "sortOrder": "10"
+          },
+          {
+            "id": 2000051195,
+            "name": "Europa League",
+            "boCount": 4,
+            "englishName": "Europa League",
+            "sport": "FOOTBALL",
+            "eventCount": 20,
+            "termKey": "europa_league",
+            "sortOrder": "11"
+          },
+          {
+            "id": 2000130522,
+            "name": "Conference League",
+            "boCount": 2,
+            "englishName": "Conference League",
+            "sport": "FOOTBALL",
+            "eventCount": 19,
+            "termKey": "conference_league",
+            "sortOrder": "12"
+          },
+          {
+            "id": 1000093399,
+            "name": "Copa Libertadores",
+            "boCount": 580,
+            "englishName": "Copa Libertadores",
+            "sport": "FOOTBALL",
+            "eventCount": 15,
+            "termKey": "copa_libertadores",
+            "sortOrder": "13"
+          },
+          {
+            "id": 1000179126,
+            "name": "Copa Sudamericana",
+            "boCount": 520,
+            "englishName": "Copa Sudamericana",
+            "sport": "FOOTBALL",
+            "eventCount": 14,
+            "termKey": "copa_sudamericana",
+            "sortOrder": "14"
+          },
+          {
+            "id": 1000123032,
+            "name": "African Nations Cup",
+            "boCount": 1,
+            "englishName": "African Nations Cup",
+            "sport": "FOOTBALL",
+            "eventCount": 1,
+            "termKey": "african_nations_cup"
+          },
+          {
+            "id": 1000461755,
+            "name": "Australia",
+            "boCount": 3,
+            "englishName": "Australia",
+            "groups": [
+              {
+                "id": 1000182606,
+                "name": "A-League",
+                "boCount": 3,
+                "englishName": "A-League",
+                "sport": "FOOTBALL",
+                "eventCount": 19,
+                "termKey": "a-league",
+                "sortOrder": "1"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 23,
+            "termKey": "australia"
+          },
+          {
+            "id": 1000461751,
+            "name": "Austria",
+            "boCount": 255,
+            "englishName": "Austria",
+            "groups": [
+              {
+                "id": 1000345237,
+                "name": "Bundesliga",
+                "boCount": 255,
+                "englishName": "Bundesliga",
+                "sport": "FOOTBALL",
+                "eventCount": 22,
+                "termKey": "bundesliga",
+                "sortOrder": "3"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 23,
+            "termKey": "austria"
+          },
+          {
+            "id": 1000461772,
+            "name": "Bahrain",
+            "boCount": 51,
+            "englishName": "Bahrain",
+            "groups": [
+              {
+                "id": 1000317386,
+                "name": "Premier League",
+                "boCount": 51,
+                "englishName": "Premier League",
+                "sport": "FOOTBALL",
+                "eventCount": 2,
+                "termKey": "premier_league"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 2,
+            "termKey": "bahrain"
+          },
+          {
+            "id": 1000461740,
+            "name": "Belgium",
+            "boCount": 1103,
+            "englishName": "Belgium",
+            "groups": [
+              {
+                "id": 1000094965,
+                "name": "Jupiler Pro League",
+                "boCount": 909,
+                "englishName": "Jupiler Pro League",
+                "sport": "FOOTBALL",
+                "eventCount": 31,
+                "termKey": "jupiler_pro_league",
+                "sortOrder": "1"
+              },
+              {
+                "id": 1000358593,
+                "name": "Challenger Pro League",
+                "boCount": 194,
+                "englishName": "Challenger Pro League",
+                "sport": "FOOTBALL",
+                "eventCount": 27,
+                "termKey": "challenger_pro_league",
+                "sortOrder": "3"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 61,
+            "termKey": "belgium"
+          },
+          {
+            "id": 1000461792,
+            "name": "Bosnia & Herzegovina",
+            "boCount": 33,
+            "englishName": "Bosnia & Herzegovina",
+            "groups": [
+              {
+                "id": 1000453625,
+                "name": "Premijer Liga",
+                "boCount": 33,
+                "englishName": "Premijer Liga",
+                "sport": "FOOTBALL",
+                "eventCount": 3,
+                "termKey": "premijer_liga"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 6,
+            "termKey": "bosnia___herzegovina"
+          },
+          {
+            "id": 1000461757,
+            "name": "Bulgaria",
+            "boCount": 426,
+            "englishName": "Bulgaria",
+            "groups": [
+              {
+                "id": 1000383831,
+                "name": "PFL 1",
+                "boCount": 372,
+                "englishName": "PFL 1",
+                "sport": "FOOTBALL",
+                "eventCount": 27,
+                "termKey": "pfl_1"
+              },
+              {
+                "id": 2000051850,
+                "name": "PFL 2",
+                "boCount": 54,
+                "englishName": "PFL 2",
+                "sport": "FOOTBALL",
+                "eventCount": 3,
+                "termKey": "pfl_2"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 30,
+            "termKey": "bulgaria"
+          },
+          {
+            "id": 2000121299,
+            "name": "CAF Champions League Qualification",
+            "boCount": 6,
+            "englishName": "CAF Champions League Qualification",
+            "sport": "FOOTBALL",
+            "eventCount": 1,
+            "termKey": "caf_champions_league_qualification"
+          },
+          {
+            "id": 1000461737,
+            "name": "Canada",
+            "boCount": 27,
+            "englishName": "Canada",
+            "groups": [
+              {
+                "id": 2000119102,
+                "name": "CPL",
+                "boCount": 27,
+                "englishName": "CPL",
+                "sport": "FOOTBALL",
+                "eventCount": 3,
+                "termKey": "cpl"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 3,
+            "termKey": "canada"
+          },
+          {
+            "id": 1000461738,
+            "name": "Chile",
+            "boCount": 46,
+            "englishName": "Chile",
+            "groups": [
+              {
+                "id": 1000095155,
+                "name": "Primera Chile",
+                "boCount": 1,
+                "englishName": "Primera Chile",
+                "sport": "FOOTBALL",
+                "eventCount": 26,
+                "termKey": "primera_chile",
+                "sortOrder": "1"
+              },
+              {
+                "id": 1000439335,
+                "name": "Primera B",
+                "boCount": 45,
+                "englishName": "Primera B",
+                "sport": "FOOTBALL",
+                "eventCount": 4,
+                "termKey": "primera_b",
+                "sortOrder": "2"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 36,
+            "termKey": "chile"
+          },
+          {
+            "id": 1000461759,
+            "name": "Colombia",
+            "boCount": 1237,
+            "englishName": "Colombia",
+            "groups": [
+              {
+                "id": 1000449742,
+                "name": "Liga Dimayor",
+                "boCount": 1139,
+                "englishName": "Liga Dimayor",
+                "sport": "FOOTBALL",
+                "eventCount": 47,
+                "termKey": "liga_betplay_dimayor",
+                "sortOrder": "3"
+              },
+              {
+                "id": 2000057058,
+                "name": "Torneo Dimayor",
+                "boCount": 98,
+                "englishName": "Torneo Dimayor",
+                "sport": "FOOTBALL",
+                "eventCount": 9,
+                "termKey": "torneo_betplay_dimayor",
+                "sortOrder": "4"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 59,
+            "termKey": "colombia"
+          },
+          {
+            "id": 2000050275,
+            "name": "Costa Rica",
+            "boCount": 240,
+            "englishName": "Costa Rica",
+            "groups": [
+              {
+                "id": 2000050276,
+                "name": "Primera Division Costa Rica",
+                "boCount": 170,
+                "englishName": "Primera Division Costa Rica",
+                "sport": "FOOTBALL",
+                "eventCount": 24,
+                "termKey": "primera_division_costa_rica",
+                "sortOrder": "1"
+              },
+              {
+                "id": 2000057464,
+                "name": "Liga de Ascenso",
+                "boCount": 70,
+                "englishName": "Liga de Ascenso",
+                "sport": "FOOTBALL",
+                "eventCount": 9,
+                "termKey": "liga_de_ascenso"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 34,
+            "termKey": "costa_rica"
+          },
+          {
+            "id": 1000461739,
+            "name": "Croatia",
+            "boCount": 46,
+            "englishName": "Croatia",
+            "groups": [
+              {
+                "id": 1000095736,
+                "name": "1. HNL League",
+                "boCount": 46,
+                "englishName": "1. HNL League",
+                "sport": "FOOTBALL",
+                "eventCount": 2,
+                "termKey": "1__hnl_league"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 2,
+            "termKey": "croatia"
+          },
+          {
+            "id": 1000461734,
+            "name": "Cyprus",
+            "boCount": 54,
+            "englishName": "Cyprus",
+            "groups": [
+              {
+                "id": 1000251950,
+                "name": "1st Division",
+                "boCount": 54,
+                "englishName": "1st Division",
+                "sport": "FOOTBALL",
+                "eventCount": 24,
+                "termKey": "1st_division"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 30,
+            "termKey": "cyprus"
+          },
+          {
+            "id": 1000461735,
+            "name": "Czech Republic",
+            "boCount": 701,
+            "englishName": "Czech Republic",
+            "groups": [
+              {
+                "id": 1000094975,
+                "name": "First League",
+                "boCount": 357,
+                "englishName": "First League",
+                "sport": "FOOTBALL",
+                "eventCount": 29,
+                "termKey": "first_league",
+                "sortOrder": "3"
+              },
+              {
+                "id": 2000051610,
+                "name": "MSFL",
+                "boCount": 89,
+                "englishName": "MSFL",
+                "sport": "FOOTBALL",
+                "eventCount": 4,
+                "termKey": "msfl"
+              },
+              {
+                "id": 1000154221,
+                "name": "National Football League",
+                "boCount": 57,
+                "englishName": "National Football League",
+                "sport": "FOOTBALL",
+                "eventCount": 3,
+                "termKey": "national_football_league"
+              },
+              {
+                "id": 2000051159,
+                "name": "ČFL",
+                "boCount": 198,
+                "englishName": "ČFL",
+                "sport": "FOOTBALL",
+                "eventCount": 8,
+                "termKey": "cfl"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 45,
+            "termKey": "czech_republic"
+          },
+          {
+            "id": 1000461736,
+            "name": "Denmark",
+            "boCount": 1315,
+            "englishName": "Denmark",
+            "groups": [
+              {
+                "id": 1000094978,
+                "name": "Superligaen",
+                "boCount": 1206,
+                "englishName": "Superligaen",
+                "sport": "FOOTBALL",
+                "eventCount": 28,
+                "termKey": "superligaen",
+                "sortOrder": "1"
+              },
+              {
+                "id": 1000443738,
+                "name": "DBU Pokalen",
+                "boCount": 1,
+                "englishName": "DBU Pokalen",
+                "sport": "FOOTBALL",
+                "eventCount": 8,
+                "termKey": "dbu_pokalen",
+                "sortOrder": "2"
+              },
+              {
+                "id": 1000094976,
+                "name": "1st Division",
+                "boCount": 85,
+                "englishName": "1st Division",
+                "sport": "FOOTBALL",
+                "eventCount": 21,
+                "termKey": "1st_division",
+                "sortOrder": "3"
+              },
+              {
+                "id": 2000088288,
+                "name": "2nd Division",
+                "boCount": 23,
+                "englishName": "2nd Division",
+                "sport": "FOOTBALL",
+                "eventCount": 1,
+                "termKey": "2nd_division"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 61,
+            "termKey": "denmark"
+          },
+          {
+            "id": 1000461732,
+            "name": "Ecuador",
+            "boCount": 492,
+            "englishName": "Ecuador",
+            "groups": [
+              {
+                "id": 1000095713,
+                "name": "Liga Pro",
+                "boCount": 400,
+                "englishName": "Liga Pro",
+                "sport": "FOOTBALL",
+                "eventCount": 3,
+                "termKey": "liga_pro"
+              },
+              {
+                "id": 2000066780,
+                "name": "Serie B",
+                "boCount": 92,
+                "englishName": "Serie B",
+                "sport": "FOOTBALL",
+                "eventCount": 2,
+                "termKey": "serie_b"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 5,
+            "termKey": "ecuador"
+          },
+          {
+            "id": 1000461807,
+            "name": "Egypt",
+            "boCount": 46,
+            "englishName": "Egypt",
+            "groups": [
+              {
+                "id": 1000251645,
+                "name": "Premier League",
+                "boCount": 46,
+                "englishName": "Premier League",
+                "sport": "FOOTBALL",
+                "eventCount": 2,
+                "termKey": "premier_league"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 14,
+            "termKey": "egypt"
+          },
+          {
+            "id": 2000075124,
+            "name": "El Salvador",
+            "boCount": 69,
+            "englishName": "El Salvador",
+            "groups": [
+              {
+                "id": 2000075125,
+                "name": "Primera El Salvador",
+                "boCount": 69,
+                "englishName": "Primera El Salvador",
+                "sport": "FOOTBALL",
+                "eventCount": 3,
+                "termKey": "primera_el_salvador"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 7,
+            "termKey": "el_salvador"
+          },
+          {
+            "id": 1000461729,
+            "name": "Estonia",
+            "boCount": 162,
+            "englishName": "Estonia",
+            "groups": [
+              {
+                "id": 1000095346,
+                "name": "Premium Liiga",
+                "boCount": 50,
+                "englishName": "Premium Liiga",
+                "sport": "FOOTBALL",
+                "eventCount": 21,
+                "termKey": "premium_liiga",
+                "sortOrder": "1"
+              },
+              {
+                "id": 2000051949,
+                "name": "Esiliiga",
+                "boCount": 52,
+                "englishName": "Esiliiga",
+                "sport": "FOOTBALL",
+                "eventCount": 3,
+                "termKey": "esiliiga"
+              },
+              {
+                "id": 2000076686,
+                "name": "Esiliiga B",
+                "boCount": 60,
+                "englishName": "Esiliiga B",
+                "sport": "FOOTBALL",
+                "eventCount": 3,
+                "termKey": "esiliiga_b"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 27,
+            "termKey": "estonia"
+          },
+          {
+            "id": 2000053626,
+            "name": "Faroe Islands",
+            "boCount": 48,
+            "englishName": "Faroe Islands",
+            "groups": [
+              {
+                "id": 2000055068,
+                "name": "Premier League",
+                "boCount": 48,
+                "englishName": "Premier League",
+                "sport": "FOOTBALL",
+                "eventCount": 2,
+                "termKey": "premier_league",
+                "sortOrder": "1"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 2,
+            "termKey": "faroe_islands"
+          },
+          {
+            "id": 1000461822,
+            "name": "Finland",
+            "boCount": 91,
+            "englishName": "Finland",
+            "groups": [
+              {
+                "id": 1000094989,
+                "name": "Veikkausliiga",
+                "boCount": 91,
+                "englishName": "Veikkausliiga",
+                "sport": "FOOTBALL",
+                "eventCount": 19,
+                "termKey": "veikkausliiga",
+                "sortOrder": "1"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 30,
+            "termKey": "finland"
+          },
+          {
+            "id": 1000461752,
+            "name": "Greece",
+            "boCount": 184,
+            "englishName": "Greece",
+            "groups": [
+              {
+                "id": 1000094996,
+                "name": "Super League",
+                "boCount": 184,
+                "englishName": "Super League",
+                "sport": "FOOTBALL",
+                "eventCount": 22,
+                "termKey": "super_league",
+                "sortOrder": "3"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 25,
+            "termKey": "greece"
+          },
+          {
+            "id": 2000050538,
+            "name": "Guatemala",
+            "boCount": 113,
+            "englishName": "Guatemala",
+            "groups": [
+              {
+                "id": 2000050539,
+                "name": "Liga Nacional Guatemala",
+                "boCount": 113,
+                "englishName": "Liga Nacional Guatemala",
+                "sport": "FOOTBALL",
+                "eventCount": 30,
+                "termKey": "liga_nacional_guatemala"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 36,
+            "termKey": "guatemala"
+          },
+          {
+            "id": 2000055522,
+            "name": "Honduras",
+            "boCount": 34,
+            "englishName": "Honduras",
+            "groups": [
+              {
+                "id": 2000055524,
+                "name": "Liga Nacional Honduras",
+                "boCount": 34,
+                "englishName": "Liga Nacional Honduras",
+                "sport": "FOOTBALL",
+                "eventCount": 6,
+                "termKey": "liga_nacional_honduras"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 6,
+            "termKey": "honduras"
+          },
+          {
+            "id": 1000461767,
+            "name": "Hong Kong",
+            "boCount": 44,
+            "englishName": "Hong Kong",
+            "groups": [
+              {
+                "id": 1000441890,
+                "name": "1st Division",
+                "boCount": 18,
+                "englishName": "1st Division",
+                "sport": "FOOTBALL",
+                "eventCount": 4,
+                "secondsToNextEvent": 2513,
+                "termKey": "1st_division"
+              },
+              {
+                "id": 2000080187,
+                "name": "Premier League",
+                "boCount": 26,
+                "englishName": "Premier League",
+                "sport": "FOOTBALL",
+                "eventCount": 1,
+                "termKey": "premier_league"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 20,
+            "secondsToNextEvent": 2513,
+            "termKey": "hong_kong"
+          },
+          {
+            "id": 1000461748,
+            "name": "Hungary",
+            "boCount": 375,
+            "englishName": "Hungary",
+            "groups": [
+              {
+                "id": 1000094997,
+                "name": "NB 1",
+                "boCount": 317,
+                "englishName": "NB 1",
+                "sport": "FOOTBALL",
+                "eventCount": 21,
+                "termKey": "nb_1",
+                "sortOrder": "1"
+              },
+              {
+                "id": 2000051571,
+                "name": "NB 2",
+                "boCount": 58,
+                "englishName": "NB 2",
+                "sport": "FOOTBALL",
+                "eventCount": 31,
+                "termKey": "nb_2",
+                "sortOrder": "2"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 72,
+            "termKey": "hungary"
+          },
+          {
+            "id": 1000461749,
+            "name": "Iceland",
+            "boCount": 74,
+            "englishName": "Iceland",
+            "groups": [
+              {
+                "id": 1000095749,
+                "name": "Úrvalsdeild",
+                "boCount": 74,
+                "englishName": "Úrvalsdeild",
+                "sport": "FOOTBALL",
+                "eventCount": 15,
+                "termKey": "urvalsdeild",
+                "sortOrder": "1"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 17,
+            "termKey": "iceland"
+          },
+          {
+            "id": 2000054054,
+            "name": "Indonesia",
+            "boCount": 6,
+            "englishName": "Indonesia",
+            "groups": [
+              {
+                "id": 2000057280,
+                "name": "Liga 2",
+                "boCount": 6,
+                "englishName": "Liga 2",
+                "sport": "FOOTBALL",
+                "eventCount": 3,
+                "termKey": "liga_2"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 16,
+            "termKey": "indonesia"
+          },
+          {
+            "id": 1000461750,
+            "name": "Ireland",
+            "boCount": 377,
+            "englishName": "Ireland",
+            "groups": [
+              {
+                "id": 1000095601,
+                "name": "Premier Division",
+                "boCount": 342,
+                "englishName": "Premier Division",
+                "sport": "FOOTBALL",
+                "eventCount": 4,
+                "termKey": "premier_division",
+                "sortOrder": "1"
+              },
+              {
+                "id": 1000157155,
+                "name": "1st Division",
+                "boCount": 23,
+                "englishName": "1st Division",
+                "sport": "FOOTBALL",
+                "eventCount": 1,
+                "termKey": "1st_division"
+              },
+              {
+                "id": 1000154269,
+                "name": "FAI Cup",
+                "boCount": 12,
+                "englishName": "FAI Cup",
+                "sport": "FOOTBALL",
+                "eventCount": 1,
+                "termKey": "fai_cup"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 6,
+            "termKey": "ireland"
+          },
+          {
+            "id": 1000461746,
+            "name": "Japan",
+            "boCount": 324,
+            "englishName": "Japan",
+            "groups": [
+              {
+                "id": 1000095645,
+                "name": "J1-League",
+                "boCount": 86,
+                "englishName": "J1-League",
+                "sport": "FOOTBALL",
+                "eventCount": 21,
+                "termKey": "j1-league",
+                "sortOrder": "1"
+              },
+              {
+                "id": 1000152623,
+                "name": "J2-League",
+                "boCount": 122,
+                "englishName": "J2-League",
+                "sport": "FOOTBALL",
+                "eventCount": 5,
+                "secondsToNextEvent": 713,
+                "termKey": "j2-league"
+              },
+              {
+                "id": 2000067441,
+                "name": "J3-League",
+                "boCount": 116,
+                "englishName": "J3-League",
+                "sport": "FOOTBALL",
+                "eventCount": 4,
+                "secondsToNextEvent": 713,
+                "termKey": "j3-league"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 37,
+            "secondsToNextEvent": 713,
+            "termKey": "japan"
+          },
+          {
+            "id": 2000050579,
+            "name": "Jordan",
+            "boCount": 43,
+            "englishName": "Jordan",
+            "groups": [
+              {
+                "id": 2000055689,
+                "name": "FA Shield",
+                "boCount": 43,
+                "englishName": "FA Shield",
+                "sport": "FOOTBALL",
+                "eventCount": 2,
+                "termKey": "fa_shield"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 8,
+            "termKey": "jordan"
+          },
+          {
+            "id": 1000461800,
+            "name": "Latvia",
+            "boCount": 33,
+            "englishName": "Latvia",
+            "groups": [
+              {
+                "id": 1000158930,
+                "name": "Virsliga",
+                "boCount": 33,
+                "englishName": "Virsliga",
+                "sport": "FOOTBALL",
+                "eventCount": 2,
+                "termKey": "virsliga"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 2,
+            "termKey": "latvia"
+          },
+          {
+            "id": 1000461801,
+            "name": "Lithuania",
+            "boCount": 72,
+            "englishName": "Lithuania",
+            "groups": [
+              {
+                "id": 1000157714,
+                "name": "A Lyga",
+                "boCount": 72,
+                "englishName": "A Lyga",
+                "sport": "FOOTBALL",
+                "eventCount": 3,
+                "termKey": "a_lyga",
+                "sortOrder": "1"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 4,
+            "termKey": "lithuania"
+          },
+          {
+            "id": 2000070123,
+            "name": "Luxembourg",
+            "boCount": 30,
+            "englishName": "Luxembourg",
+            "groups": [
+              {
+                "id": 2000070124,
+                "name": "National Division",
+                "boCount": 30,
+                "englishName": "National Division",
+                "sport": "FOOTBALL",
+                "eventCount": 5,
+                "termKey": "national_division"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 5,
+            "termKey": "luxembourg"
+          },
+          {
+            "id": 2000051178,
+            "name": "Malaysia",
+            "boCount": 29,
+            "englishName": "Malaysia",
+            "groups": [
+              {
+                "id": 2000051179,
+                "name": "Super League",
+                "boCount": 29,
+                "englishName": "Super League",
+                "sport": "FOOTBALL",
+                "eventCount": 2,
+                "termKey": "super_league"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 7,
+            "termKey": "malaysia"
+          },
+          {
+            "id": 2000052683,
+            "name": "Malta",
+            "boCount": 9,
+            "englishName": "Malta",
+            "groups": [
+              {
+                "id": 2000052684,
+                "name": "Premier League",
+                "boCount": 9,
+                "englishName": "Premier League",
+                "sport": "FOOTBALL",
+                "eventCount": 2,
+                "termKey": "premier_league"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 2,
+            "termKey": "malta"
+          },
+          {
+            "id": 1000461742,
+            "name": "Mexico",
+            "boCount": 1037,
+            "englishName": "Mexico",
+            "groups": [
+              {
+                "id": 1000094112,
+                "name": "Liga MX",
+                "boCount": 535,
+                "englishName": "Liga MX",
+                "sport": "FOOTBALL",
+                "eventCount": 39,
+                "termKey": "liga_mx",
+                "sortOrder": "1"
+              },
+              {
+                "id": 1000451251,
+                "name": "Liga de Expansion MX",
+                "boCount": 502,
+                "englishName": "Liga de Expansion MX",
+                "sport": "FOOTBALL",
+                "eventCount": 29,
+                "termKey": "liga_de_expansion_mx",
+                "sortOrder": "2"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 112,
+            "termKey": "mexico"
+          },
+          {
+            "id": 1000461753,
+            "name": "Netherlands",
+            "boCount": 4798,
+            "englishName": "Netherlands",
+            "groups": [
+              {
+                "id": 1000094980,
+                "name": "Eredivisie",
+                "boCount": 4195,
+                "englishName": "Eredivisie",
+                "sport": "FOOTBALL",
+                "eventCount": 35,
+                "termKey": "eredivisie",
+                "sortOrder": "3"
+              },
+              {
+                "id": 1000095127,
+                "name": "Eerste Divisie",
+                "boCount": 587,
+                "englishName": "Eerste Divisie",
+                "sport": "FOOTBALL",
+                "eventCount": 41,
+                "termKey": "eerste_divisie",
+                "sortOrder": "30"
+              },
+              {
+                "id": 1000094979,
+                "name": "KNVB Beker",
+                "boCount": 1,
+                "englishName": "KNVB Beker",
+                "sport": "FOOTBALL",
+                "eventCount": 1,
+                "termKey": "knvb_beker",
+                "sortOrder": "50"
+              },
+              {
+                "id": 1000436337,
+                "name": "Eredivisie (W)",
+                "boCount": 15,
+                "englishName": "Eredivisie (W)",
+                "sport": "FOOTBALL",
+                "eventCount": 16,
+                "termKey": "eredivisie__w_"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 93,
+            "termKey": "netherlands"
+          },
+          {
+            "id": 1000461743,
+            "name": "New Zealand",
+            "boCount": 15,
+            "englishName": "New Zealand",
+            "groups": [
+              {
+                "id": 1000281673,
+                "name": "National League Championship",
+                "boCount": 15,
+                "englishName": "National League Championship",
+                "sport": "FOOTBALL",
+                "termKey": "national_league_championship"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 1,
+            "termKey": "new_zealand"
+          },
+          {
+            "id": 1000461744,
+            "name": "Norway",
+            "boCount": 1236,
+            "englishName": "Norway",
+            "groups": [
+              {
+                "id": 1000095010,
+                "name": "Eliteserien",
+                "boCount": 771,
+                "englishName": "Eliteserien",
+                "sport": "FOOTBALL",
+                "eventCount": 34,
+                "termKey": "eliteserien",
+                "sortOrder": "1"
+              },
+              {
+                "id": 1000095003,
+                "name": "OBOS-ligaen",
+                "boCount": 196,
+                "englishName": "OBOS-ligaen",
+                "sport": "FOOTBALL",
+                "eventCount": 36,
+                "termKey": "obos-ligaen"
+              },
+              {
+                "id": 2000100352,
+                "name": "Postnordligaen avd. 1",
+                "boCount": 119,
+                "englishName": "Postnordligaen avd. 1",
+                "sport": "FOOTBALL",
+                "eventCount": 5,
+                "termKey": "postnordligaen_avd__1"
+              },
+              {
+                "id": 2000100353,
+                "name": "Postnordligaen avd. 2",
+                "boCount": 150,
+                "englishName": "Postnordligaen avd. 2",
+                "sport": "FOOTBALL",
+                "eventCount": 6,
+                "termKey": "postnordligaen_avd__2"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 107,
+            "termKey": "norway"
+          },
+          {
+            "id": 2000050114,
+            "name": "Paraguay",
+            "boCount": 702,
+            "englishName": "Paraguay",
+            "groups": [
+              {
+                "id": 2000116433,
+                "name": "Copa Paraguay",
+                "boCount": 8,
+                "englishName": "Copa Paraguay",
+                "sport": "FOOTBALL",
+                "eventCount": 2,
+                "termKey": "copa_paraguay"
+              },
+              {
+                "id": 2000050115,
+                "name": "Primera Paraguay",
+                "boCount": 694,
+                "englishName": "Primera Paraguay",
+                "sport": "FOOTBALL",
+                "eventCount": 22,
+                "termKey": "primera_paraguay"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 29,
+            "termKey": "paraguay"
+          },
+          {
+            "id": 1000461802,
+            "name": "Peru",
+            "boCount": 1509,
+            "englishName": "Peru",
+            "groups": [
+              {
+                "id": 1000237680,
+                "name": "Liga 1",
+                "boCount": 1486,
+                "englishName": "Liga 1",
+                "sport": "FOOTBALL",
+                "eventCount": 21,
+                "termKey": "liga_1",
+                "sortOrder": "1"
+              },
+              {
+                "id": 2000055549,
+                "name": "Segunda Division",
+                "boCount": 23,
+                "englishName": "Segunda Division",
+                "sport": "FOOTBALL",
+                "eventCount": 2,
+                "termKey": "segunda_division",
+                "sortOrder": "2"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 23,
+            "termKey": "peru"
+          },
+          {
+            "id": 1000461811,
+            "name": "Poland",
+            "boCount": 890,
+            "englishName": "Poland",
+            "groups": [
+              {
+                "id": 1000385219,
+                "name": "Ekstraklasa",
+                "boCount": 564,
+                "englishName": "Ekstraklasa",
+                "sport": "FOOTBALL",
+                "eventCount": 32,
+                "termKey": "ekstraklasa",
+                "sortOrder": "3"
+              },
+              {
+                "id": 1000348167,
+                "name": "I Liga",
+                "boCount": 75,
+                "englishName": "I Liga",
+                "sport": "FOOTBALL",
+                "eventCount": 4,
+                "termKey": "i_liga",
+                "sortOrder": "5"
+              },
+              {
+                "id": 2000057675,
+                "name": "Ekstraklasa (W)",
+                "boCount": 23,
+                "englishName": "Ekstraklasa (W)",
+                "sport": "FOOTBALL",
+                "eventCount": 2,
+                "termKey": "ekstraklasa__w_"
+              },
+              {
+                "id": 2000077607,
+                "name": "II Liga",
+                "boCount": 106,
+                "englishName": "II Liga",
+                "sport": "FOOTBALL",
+                "eventCount": 5,
+                "termKey": "ii_liga"
+              },
+              {
+                "id": 2000057911,
+                "name": "III Liga",
+                "boCount": 122,
+                "englishName": "III Liga",
+                "sport": "FOOTBALL",
+                "eventCount": 5,
+                "termKey": "iii_liga"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 48,
+            "termKey": "poland"
+          },
+          {
+            "id": 1000461812,
+            "name": "Portugal",
+            "boCount": 680,
+            "englishName": "Portugal",
+            "groups": [
+              {
+                "id": 1000095042,
+                "name": "Primeira Liga",
+                "boCount": 563,
+                "englishName": "Primeira Liga",
+                "sport": "FOOTBALL",
+                "eventCount": 22,
+                "termKey": "primeira_liga",
+                "sortOrder": "1"
+              },
+              {
+                "id": 1000265213,
+                "name": "Liga 2",
+                "boCount": 117,
+                "englishName": "Liga 2",
+                "sport": "FOOTBALL",
+                "eventCount": 5,
+                "termKey": "liga_2",
+                "sortOrder": "2"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 42,
+            "termKey": "portugal"
+          },
+          {
+            "id": 1000461808,
+            "name": "Romania",
+            "boCount": 669,
+            "englishName": "Romania",
+            "groups": [
+              {
+                "id": 1000095499,
+                "name": "Liga I",
+                "boCount": 597,
+                "englishName": "Liga I",
+                "sport": "FOOTBALL",
+                "eventCount": 37,
+                "termKey": "liga_i",
+                "sortOrder": "1"
+              },
+              {
+                "id": 2000095935,
+                "name": "Liga II",
+                "boCount": 72,
+                "englishName": "Liga II",
+                "sport": "FOOTBALL",
+                "eventCount": 36,
+                "termKey": "liga_ii",
+                "sortOrder": "2"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 73,
+            "termKey": "romania"
+          },
+          {
+            "id": 1000461819,
+            "name": "Saudi Arabia",
+            "boCount": 1,
+            "englishName": "Saudi Arabia",
+            "groups": [
+              {
+                "id": 1000250591,
+                "name": "Professional League",
+                "boCount": 1,
+                "englishName": "Professional League",
+                "sport": "FOOTBALL",
+                "eventCount": 28,
+                "termKey": "professional_league",
+                "sortOrder": "1"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 30,
+            "termKey": "saudi_arabia"
+          },
+          {
+            "id": 1000461810,
+            "name": "Scotland",
+            "boCount": 914,
+            "englishName": "Scotland",
+            "groups": [
+              {
+                "id": 1000095047,
+                "name": "Scottish Premiership",
+                "boCount": 478,
+                "englishName": "Scottish Premiership",
+                "sport": "FOOTBALL",
+                "eventCount": 29,
+                "termKey": "scottish_premiership",
+                "sortOrder": "1"
+              },
+              {
+                "id": 1000095045,
+                "name": "Championship",
+                "boCount": 423,
+                "englishName": "Championship",
+                "sport": "FOOTBALL",
+                "eventCount": 6,
+                "termKey": "championship",
+                "sortOrder": "3"
+              },
+              {
+                "id": 1000094254,
+                "name": "Scottish Cup",
+                "boCount": 1,
+                "englishName": "Scottish Cup",
+                "sport": "FOOTBALL",
+                "eventCount": 1,
+                "termKey": "scottish_cup",
+                "sortOrder": "8"
+              },
+              {
+                "id": 1000095046,
+                "name": "League Cup",
+                "boCount": 1,
+                "englishName": "League Cup",
+                "sport": "FOOTBALL",
+                "eventCount": 1,
+                "termKey": "league_cup"
+              },
+              {
+                "id": 2000077086,
+                "name": "Scottish Cup (W)",
+                "boCount": 11,
+                "englishName": "Scottish Cup (W)",
+                "sport": "FOOTBALL",
+                "eventCount": 7,
+                "termKey": "scottish_cup__w_"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 45,
+            "termKey": "scotland"
+          },
+          {
+            "id": 2000050598,
+            "name": "Serbia",
+            "boCount": 102,
+            "englishName": "Serbia",
+            "groups": [
+              {
+                "id": 2000055499,
+                "name": "Prva Liga",
+                "boCount": 23,
+                "englishName": "Prva Liga",
+                "sport": "FOOTBALL",
+                "eventCount": 2,
+                "termKey": "prva_liga"
+              },
+              {
+                "id": 2000050599,
+                "name": "Super Liga",
+                "boCount": 73,
+                "englishName": "Super Liga",
+                "sport": "FOOTBALL",
+                "eventCount": 3,
+                "termKey": "super_liga"
+              },
+              {
+                "id": 2000079467,
+                "name": "Super Liga (W)",
+                "boCount": 6,
+                "englishName": "Super Liga (W)",
+                "sport": "FOOTBALL",
+                "eventCount": 1,
+                "termKey": "super_liga__w_"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 9,
+            "termKey": "serbia"
+          },
+          {
+            "id": 1000461818,
+            "name": "Slovakia",
+            "boCount": 69,
+            "englishName": "Slovakia",
+            "groups": [
+              {
+                "id": 2000051365,
+                "name": "2. Liga",
+                "boCount": 46,
+                "englishName": "2. Liga",
+                "sport": "FOOTBALL",
+                "eventCount": 2,
+                "termKey": "2__liga"
+              },
+              {
+                "id": 1000095048,
+                "name": "Super Liga",
+                "boCount": 23,
+                "englishName": "Super Liga",
+                "sport": "FOOTBALL",
+                "eventCount": 1,
+                "termKey": "super_liga"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 8,
+            "termKey": "slovakia"
+          },
+          {
+            "id": 1000461798,
+            "name": "Slovenia",
+            "boCount": 48,
+            "englishName": "Slovenia",
+            "groups": [
+              {
+                "id": 1000297434,
+                "name": "Prva Liga",
+                "boCount": 48,
+                "englishName": "Prva Liga",
+                "sport": "FOOTBALL",
+                "eventCount": 2,
+                "termKey": "prva_liga"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 3,
+            "termKey": "slovenia"
+          },
+          {
+            "id": 1000461803,
+            "name": "South Africa",
+            "boCount": 1,
+            "englishName": "South Africa",
+            "groups": [
+              {
+                "id": 1000250636,
+                "name": "SA Premier Soccer League",
+                "boCount": 1,
+                "englishName": "SA Premier Soccer League",
+                "sport": "FOOTBALL",
+                "eventCount": 17,
+                "termKey": "sa_premier_soccer_league",
+                "sortOrder": "1"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 21,
+            "termKey": "south_africa"
+          },
+          {
+            "id": 1000461799,
+            "name": "South Korea",
+            "boCount": 471,
+            "englishName": "South Korea",
+            "groups": [
+              {
+                "id": 1000152705,
+                "name": "K-League 1",
+                "boCount": 285,
+                "englishName": "K-League 1",
+                "sport": "FOOTBALL",
+                "eventCount": 10,
+                "secondsToNextEvent": 713,
+                "termKey": "k-league_1",
+                "sortOrder": "1"
+              },
+              {
+                "id": 2000064655,
+                "name": "K-League 2",
+                "boCount": 186,
+                "englishName": "K-League 2",
+                "sport": "FOOTBALL",
+                "eventCount": 9,
+                "secondsToNextEvent": 713,
+                "termKey": "k-league_2",
+                "sortOrder": "3"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 19,
+            "secondsToNextEvent": 713,
+            "termKey": "south_korea"
+          },
+          {
+            "id": 1000461814,
+            "name": "Sweden",
+            "boCount": 1599,
+            "englishName": "Sweden",
+            "groups": [
+              {
+                "id": 1000095057,
+                "name": "Allsvenskan",
+                "boCount": 606,
+                "englishName": "Allsvenskan",
+                "sport": "FOOTBALL",
+                "eventCount": 39,
+                "termKey": "allsvenskan",
+                "sortOrder": "1"
+              },
+              {
+                "id": 1000095052,
+                "name": "Superettan",
+                "boCount": 592,
+                "englishName": "Superettan",
+                "sport": "FOOTBALL",
+                "eventCount": 34,
+                "termKey": "superettan",
+                "sortOrder": "2"
+              },
+              {
+                "id": 2000075204,
+                "name": "Elitettan (W)",
+                "boCount": 71,
+                "englishName": "Elitettan (W)",
+                "sport": "FOOTBALL",
+                "eventCount": 3,
+                "termKey": "elitettan__w_"
+              },
+              {
+                "id": 1000094744,
+                "name": "Ettan Norra",
+                "boCount": 72,
+                "englishName": "Ettan Norra",
+                "sport": "FOOTBALL",
+                "eventCount": 4,
+                "termKey": "ettan_norra"
+              },
+              {
+                "id": 1000094745,
+                "name": "Ettan Södra",
+                "boCount": 58,
+                "englishName": "Ettan Södra",
+                "sport": "FOOTBALL",
+                "eventCount": 4,
+                "termKey": "ettan_sodra"
+              },
+              {
+                "id": 1000176396,
+                "name": "OBOS Damallsvenskan (W)",
+                "boCount": 200,
+                "englishName": "OBOS Damallsvenskan (W)",
+                "sport": "FOOTBALL",
+                "eventCount": 26,
+                "termKey": "obos_damallsvenskan__w_"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 126,
+            "termKey": "sweden"
+          },
+          {
+            "id": 1000461815,
+            "name": "Switzerland",
+            "boCount": 362,
+            "englishName": "Switzerland",
+            "groups": [
+              {
+                "id": 1000095020,
+                "name": "Super League",
+                "boCount": 282,
+                "englishName": "Super League",
+                "sport": "FOOTBALL",
+                "eventCount": 28,
+                "termKey": "super_league",
+                "sortOrder": "1"
+              },
+              {
+                "id": 2000056287,
+                "name": "1.Liga",
+                "boCount": 15,
+                "englishName": "1.Liga",
+                "sport": "FOOTBALL",
+                "eventCount": 1,
+                "termKey": "1_liga"
+              },
+              {
+                "id": 1000095021,
+                "name": "Challenge League",
+                "boCount": 26,
+                "englishName": "Challenge League",
+                "sport": "FOOTBALL",
+                "eventCount": 1,
+                "termKey": "challenge_league"
+              },
+              {
+                "id": 2000089448,
+                "name": "Nationalliga A (W)",
+                "boCount": 15,
+                "englishName": "Nationalliga A (W)",
+                "sport": "FOOTBALL",
+                "eventCount": 1,
+                "termKey": "nationalliga_a__w_"
+              },
+              {
+                "id": 2000108532,
+                "name": "Promotion League",
+                "boCount": 24,
+                "englishName": "Promotion League",
+                "sport": "FOOTBALL",
+                "eventCount": 1,
+                "termKey": "promotion_league"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 32,
+            "termKey": "switzerland"
+          },
+          {
+            "id": 1000461790,
+            "name": "Thailand",
+            "boCount": 142,
+            "englishName": "Thailand",
+            "groups": [
+              {
+                "id": 1000374584,
+                "name": "Thai League 1",
+                "boCount": 72,
+                "englishName": "Thai League 1",
+                "sport": "FOOTBALL",
+                "eventCount": 3,
+                "termKey": "thai_league_1"
+              },
+              {
+                "id": 2000076226,
+                "name": "Thai League 2",
+                "boCount": 70,
+                "englishName": "Thai League 2",
+                "sport": "FOOTBALL",
+                "eventCount": 3,
+                "termKey": "thai_league_2"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 16,
+            "termKey": "thailand"
+          },
+          {
+            "id": 2000053118,
+            "name": "Tunisia",
+            "boCount": 46,
+            "englishName": "Tunisia",
+            "groups": [
+              {
+                "id": 2000053119,
+                "name": "Ligue 1",
+                "boCount": 46,
+                "englishName": "Ligue 1",
+                "sport": "FOOTBALL",
+                "eventCount": 2,
+                "termKey": "ligue_1"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 2,
+            "termKey": "tunisia"
+          },
+          {
+            "id": 1000461821,
+            "name": "Turkey",
+            "boCount": 914,
+            "englishName": "Turkey",
+            "groups": [
+              {
+                "id": 1000095062,
+                "name": "Süper Lig",
+                "boCount": 535,
+                "englishName": "Süper Lig",
+                "sport": "FOOTBALL",
+                "eventCount": 29,
+                "termKey": "super_lig",
+                "sortOrder": "1"
+              },
+              {
+                "id": 2000091963,
+                "name": "1. Futbol Ligi (W)",
+                "boCount": 12,
+                "englishName": "1. Futbol Ligi (W)",
+                "sport": "FOOTBALL",
+                "eventCount": 3,
+                "termKey": "1__futbol_ligi__w_"
+              },
+              {
+                "id": 1000305993,
+                "name": "1. Lig",
+                "boCount": 95,
+                "englishName": "1. Lig",
+                "sport": "FOOTBALL",
+                "eventCount": 4,
+                "termKey": "1__lig"
+              },
+              {
+                "id": 1000442086,
+                "name": "2. Lig",
+                "boCount": 272,
+                "englishName": "2. Lig",
+                "sport": "FOOTBALL",
+                "eventCount": 16,
+                "termKey": "2__lig"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 71,
+            "termKey": "turkey"
+          },
+          {
+            "id": 1000461804,
+            "name": "Ukraine",
+            "boCount": 48,
+            "englishName": "Ukraine",
+            "groups": [
+              {
+                "id": 1000171537,
+                "name": "Premier League",
+                "boCount": 48,
+                "englishName": "Premier League",
+                "sport": "FOOTBALL",
+                "eventCount": 3,
+                "termKey": "premier_league",
+                "sortOrder": "1"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 7,
+            "termKey": "ukraine"
+          },
+          {
+            "id": 1000461760,
+            "name": "Uruguay",
+            "boCount": 688,
+            "englishName": "Uruguay",
+            "groups": [
+              {
+                "id": 1000450453,
+                "name": "Campeonato Uruguayo",
+                "boCount": 595,
+                "englishName": "Campeonato Uruguayo",
+                "sport": "FOOTBALL",
+                "eventCount": 12,
+                "termKey": "campeonato_uruguayo"
+              },
+              {
+                "id": 2000056865,
+                "name": "Segunda Division",
+                "boCount": 93,
+                "englishName": "Segunda Division",
+                "sport": "FOOTBALL",
+                "eventCount": 4,
+                "termKey": "segunda_division"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 24,
+            "termKey": "uruguay"
+          },
+          {
+            "id": 1000461816,
+            "name": "USA",
+            "boCount": 1849,
+            "englishName": "USA",
+            "groups": [
+              {
+                "id": 1000095063,
+                "name": "MLS",
+                "boCount": 1707,
+                "englishName": "MLS",
+                "sport": "FOOTBALL",
+                "eventCount": 27,
+                "termKey": "mls",
+                "sortOrder": "1"
+              },
+              {
+                "id": 2000074865,
+                "name": "NWSL (W)",
+                "boCount": 71,
+                "englishName": "NWSL (W)",
+                "sport": "FOOTBALL",
+                "eventCount": 4,
+                "termKey": "nwsl__w_"
+              },
+              {
+                "id": 2000055612,
+                "name": "USL Championship",
+                "boCount": 47,
+                "englishName": "USL Championship",
+                "sport": "FOOTBALL",
+                "eventCount": 2,
+                "termKey": "usl_championship"
+              },
+              {
+                "id": 2000065767,
+                "name": "USL League 1",
+                "boCount": 24,
+                "englishName": "USL League 1",
+                "sport": "FOOTBALL",
+                "eventCount": 1,
+                "termKey": "usl_league_1"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 49,
+            "termKey": "usa"
+          },
+          {
+            "id": 2000050124,
+            "name": "Wales",
+            "boCount": 152,
+            "englishName": "Wales",
+            "groups": [
+              {
+                "id": 2000050125,
+                "name": "Premier League",
+                "boCount": 140,
+                "englishName": "Premier League",
+                "sport": "FOOTBALL",
+                "eventCount": 6,
+                "termKey": "premier_league"
+              },
+              {
+                "id": 2000110593,
+                "name": "Premier Womens League (W)",
+                "boCount": 12,
+                "englishName": "Premier Womens League (W)",
+                "sport": "FOOTBALL",
+                "eventCount": 2,
+                "termKey": "premier_womens_league__w_"
+              }
+            ],
+            "sport": "FOOTBALL",
+            "eventCount": 8,
+            "termKey": "wales"
+          },
+          {
+            "id": 2010133908,
+            "name": "World Cup 2026",
+            "boCount": 1,
+            "englishName": "World Cup 2026",
+            "sport": "FOOTBALL",
+            "eventCount": 2,
+            "termKey": "world_cup_2026"
+          }
+        ],
+        "sport": "FOOTBALL",
+        "eventCount": 3799,
+        "secondsToNextEvent": 713,
+        "termKey": "football",
+        "sortOrder": "1"
+      },
+      {
+        "id": 1000093193,
+        "name": "Tennis",
+        "boCount": 690,
+        "englishName": "Tennis",
+        "groups": [
+          {
+            "id": 1000093528,
+            "name": "Grand Slam",
+            "boCount": 18,
+            "englishName": "Grand Slam",
+            "groups": [
+              {
+                "id": 1000096469,
+                "name": "Australian Open",
+                "boCount": 3,
+                "englishName": "Australian Open",
+                "sport": "TENNIS",
+                "eventCount": 2,
+                "termKey": "australian_open",
+                "sortOrder": "1"
+              },
+              {
+                "id": 1000096472,
+                "name": "Australian Open Women",
+                "boCount": 1,
+                "englishName": "Australian Open Women",
+                "sport": "TENNIS",
+                "eventCount": 2,
+                "termKey": "australian_open_women",
+                "sortOrder": "2"
+              },
+              {
+                "id": 1000096468,
+                "name": "French Open",
+                "boCount": 3,
+                "englishName": "French Open",
+                "sport": "TENNIS",
+                "eventCount": 2,
+                "termKey": "french_open",
+                "sortOrder": "10"
+              },
+              {
+                "id": 1000096478,
+                "name": "French Open Women",
+                "boCount": 3,
+                "englishName": "French Open Women",
+                "sport": "TENNIS",
+                "eventCount": 2,
+                "termKey": "french_open_women",
+                "sortOrder": "11"
+              },
+              {
+                "id": 1000096467,
+                "name": "Wimbledon",
+                "boCount": 3,
+                "englishName": "Wimbledon",
+                "sport": "TENNIS",
+                "eventCount": 2,
+                "termKey": "wimbledon",
+                "sortOrder": "17"
+              },
+              {
+                "id": 1000096477,
+                "name": "Wimbledon Women",
+                "boCount": 1,
+                "englishName": "Wimbledon Women",
+                "sport": "TENNIS",
+                "eventCount": 1,
+                "termKey": "wimbledon_women",
+                "sortOrder": "18"
+              },
+              {
+                "id": 1000096466,
+                "name": "US Open",
+                "boCount": 3,
+                "englishName": "US Open",
+                "sport": "TENNIS",
+                "eventCount": 2,
+                "termKey": "us_open",
+                "sortOrder": "26"
+              },
+              {
+                "id": 1000096475,
+                "name": "US Open Women",
+                "boCount": 1,
+                "englishName": "US Open Women",
+                "sport": "TENNIS",
+                "eventCount": 1,
+                "termKey": "us_open_women",
+                "sortOrder": "27"
+              }
+            ],
+            "sport": "TENNIS",
+            "eventCount": 14,
+            "termKey": "grand_slam",
+            "sortOrder": "1"
+          },
+          {
+            "id": 1000093324,
+            "name": "ATP",
+            "boCount": 267,
+            "englishName": "ATP",
+            "groups": [
+              {
+                "id": 1000096184,
+                "name": "Shanghai",
+                "boCount": 267,
+                "englishName": "Shanghai",
+                "sport": "TENNIS",
+                "eventCount": 14,
+                "termKey": "shanghai",
+                "sortOrder": "80"
+              }
+            ],
+            "sport": "TENNIS",
+            "eventCount": 15,
+            "termKey": "atp",
+            "sortOrder": "2"
+          },
+          {
+            "id": 1000093904,
+            "name": "WTA",
+            "boCount": 46,
+            "englishName": "WTA",
+            "groups": [
+              {
+                "id": 1000098165,
+                "name": "Beijing",
+                "boCount": 46,
+                "englishName": "Beijing",
+                "sport": "TENNIS",
+                "eventCount": 1,
+                "termKey": "beijing",
+                "sortOrder": "13"
+              }
+            ],
+            "sport": "TENNIS",
+            "eventCount": 17,
+            "termKey": "wta",
+            "sortOrder": "3"
+          },
+          {
+            "id": 2010202923,
+            "name": "WTA125",
+            "boCount": 27,
+            "englishName": "WTA125",
+            "groups": [
+              {
+                "id": 2010205524,
+                "name": "Rende",
+                "boCount": 7,
+                "englishName": "Rende",
+                "sport": "TENNIS",
+                "eventCount": 1,
+                "termKey": "rende"
+              },
+              {
+                "id": 2010205527,
+                "name": "Samsun",
+                "boCount": 10,
+                "englishName": "Samsun",
+                "sport": "TENNIS",
+                "eventCount": 1,
+                "termKey": "samsun"
+              },
+              {
+                "id": 2010205558,
+                "name": "Suzhou",
+                "boCount": 10,
+                "englishName": "Suzhou",
+                "sport": "TENNIS",
+                "eventCount": 1,
+                "termKey": "suzhou"
+              }
+            ],
+            "sport": "TENNIS",
+            "eventCount": 5,
+            "termKey": "wta125",
+            "sortOrder": "12"
+          },
+          {
+            "id": 1000093377,
+            "name": "Challenger",
+            "boCount": 49,
+            "englishName": "Challenger",
+            "groups": [
+              {
+                "id": 2010200488,
+                "name": "Antofagasta",
+                "boCount": 10,
+                "englishName": "Antofagasta",
+                "sport": "TENNIS",
+                "eventCount": 1,
+                "termKey": "antofagasta"
+              },
+              {
+                "id": 2000114713,
+                "name": "Braga",
+                "boCount": 9,
+                "englishName": "Braga",
+                "sport": "TENNIS",
+                "eventCount": 1,
+                "termKey": "braga"
+              },
+              {
+                "id": 2000081407,
+                "name": "Mouilleron Le Captif",
+                "boCount": 10,
+                "englishName": "Mouilleron Le Captif",
+                "sport": "TENNIS",
+                "eventCount": 1,
+                "termKey": "mouilleron_le_captif"
+              },
+              {
+                "id": 2000080551,
+                "name": "Tiburon",
+                "boCount": 10,
+                "englishName": "Tiburon",
+                "sport": "TENNIS",
+                "eventCount": 1,
+                "termKey": "tiburon"
+              },
+              {
+                "id": 2010202980,
+                "name": "Villena",
+                "boCount": 10,
+                "englishName": "Villena",
+                "sport": "TENNIS",
+                "eventCount": 1,
+                "termKey": "villena"
+              }
+            ],
+            "sport": "TENNIS",
+            "eventCount": 16,
+            "termKey": "challenger",
+            "sortOrder": "13"
+          },
+          {
+            "id": 2000070648,
+            "name": "WTA Qual.",
+            "boCount": 179,
+            "englishName": "WTA Qual.",
+            "groups": [
+              {
+                "id": 2000070758,
+                "name": "Wuhan",
+                "boCount": 179,
+                "englishName": "Wuhan",
+                "sport": "TENNIS",
+                "eventCount": 5,
+                "secondsToNextEvent": 713,
+                "termKey": "wuhan"
+              }
+            ],
+            "sport": "TENNIS",
+            "eventCount": 5,
+            "secondsToNextEvent": 713,
+            "termKey": "wta_qual_",
+            "sortOrder": "15"
+          },
+          {
+            "id": 2000070472,
+            "name": "ATP Doubles",
+            "boCount": 6,
+            "englishName": "ATP Doubles",
+            "groups": [
+              {
+                "id": 2000070521,
+                "name": "Shanghai",
+                "boCount": 6,
+                "englishName": "Shanghai",
+                "sport": "TENNIS",
+                "eventCount": 8,
+                "termKey": "shanghai"
+              }
+            ],
+            "sport": "TENNIS",
+            "eventCount": 8,
+            "termKey": "atp_doubles",
+            "sortOrder": "16"
+          },
+          {
+            "id": 2000070647,
+            "name": "WTA Doubles",
+            "boCount": 2,
+            "englishName": "WTA Doubles",
+            "groups": [
+              {
+                "id": 2000070657,
+                "name": "Beijing",
+                "boCount": 2,
+                "englishName": "Beijing",
+                "sport": "TENNIS",
+                "eventCount": 1,
+                "termKey": "beijing"
+              }
+            ],
+            "sport": "TENNIS",
+            "eventCount": 13,
+            "termKey": "wta_doubles",
+            "sortOrder": "17"
+          },
+          {
+            "id": 2000070865,
+            "name": "Challenger Qual.",
+            "boCount": 30,
+            "englishName": "Challenger Qual.",
+            "groups": [
+              {
+                "id": 2010203775,
+                "name": "Hersonissos",
+                "boCount": 7,
+                "englishName": "Hersonissos",
+                "sport": "TENNIS",
+                "eventCount": 11,
+                "termKey": "hersonissos"
+              },
+              {
+                "id": 2010202758,
+                "name": "Jinan",
+                "boCount": 9,
+                "englishName": "Jinan",
+                "sport": "TENNIS",
+                "eventCount": 9,
+                "secondsToNextEvent": 2513,
+                "termKey": "jinan"
+              },
+              {
+                "id": 2010132101,
+                "name": "Roanne",
+                "boCount": 8,
+                "englishName": "Roanne",
+                "sport": "TENNIS",
+                "eventCount": 11,
+                "termKey": "roanne"
+              },
+              {
+                "id": 2010133824,
+                "name": "Valencia",
+                "boCount": 6,
+                "englishName": "Valencia",
+                "sport": "TENNIS",
+                "eventCount": 10,
+                "termKey": "valencia"
+              }
+            ],
+            "sport": "TENNIS",
+            "eventCount": 62,
+            "secondsToNextEvent": 2513,
+            "termKey": "challenger_qual_"
+          },
+          {
+            "id": 2000054086,
+            "name": "ITF Men",
+            "boCount": 4,
+            "englishName": "ITF Men",
+            "groups": [
+              {
+                "id": 2000119334,
+                "name": "Heraklion",
+                "boCount": 1,
+                "englishName": "Heraklion",
+                "sport": "TENNIS",
+                "eventCount": 1,
+                "termKey": "heraklion"
+              },
+              {
+                "id": 2000117962,
+                "name": "Monastir",
+                "boCount": 1,
+                "englishName": "Monastir",
+                "sport": "TENNIS",
+                "eventCount": 1,
+                "termKey": "monastir"
+              },
+              {
+                "id": 2000117969,
+                "name": "Sharm El Sheikh",
+                "boCount": 1,
+                "englishName": "Sharm El Sheikh",
+                "sport": "TENNIS",
+                "eventCount": 1,
+                "termKey": "sharm_el_sheikh"
+              },
+              {
+                "id": 2010133605,
+                "name": "Zaragoza",
+                "boCount": 1,
+                "englishName": "Zaragoza",
+                "sport": "TENNIS",
+                "eventCount": 1,
+                "termKey": "zaragoza"
+              }
+            ],
+            "sport": "TENNIS",
+            "eventCount": 4,
+            "termKey": "itf_men"
+          },
+          {
+            "id": 1000462066,
+            "name": "ITF Women",
+            "boCount": 10,
+            "englishName": "ITF Women",
+            "groups": [
+              {
+                "id": 2010133611,
+                "name": "Baza",
+                "boCount": 1,
+                "englishName": "Baza",
+                "sport": "TENNIS",
+                "eventCount": 1,
+                "termKey": "baza"
+              },
+              {
+                "id": 2000090967,
+                "name": "Bratislava",
+                "boCount": 1,
+                "englishName": "Bratislava",
+                "sport": "TENNIS",
+                "eventCount": 1,
+                "termKey": "bratislava"
+              },
+              {
+                "id": 2000077114,
+                "name": "Bucharest",
+                "boCount": 2,
+                "englishName": "Bucharest",
+                "sport": "TENNIS",
+                "eventCount": 2,
+                "termKey": "bucharest"
+              },
+              {
+                "id": 2000127555,
+                "name": "Reims",
+                "boCount": 1,
+                "englishName": "Reims",
+                "sport": "TENNIS",
+                "eventCount": 1,
+                "termKey": "reims"
+              },
+              {
+                "id": 2000065517,
+                "name": "Santa Margherita Di Pula",
+                "boCount": 1,
+                "englishName": "Santa Margherita Di Pula",
+                "sport": "TENNIS",
+                "eventCount": 1,
+                "termKey": "santa_margherita_di_pula"
+              },
+              {
+                "id": 2000116577,
+                "name": "Santa Tecla",
+                "boCount": 1,
+                "englishName": "Santa Tecla",
+                "sport": "TENNIS",
+                "eventCount": 1,
+                "termKey": "santa_tecla"
+              },
+              {
+                "id": 2000055107,
+                "name": "Sibenik",
+                "boCount": 1,
+                "englishName": "Sibenik",
+                "sport": "TENNIS",
+                "eventCount": 1,
+                "termKey": "sibenik"
+              },
+              {
+                "id": 2000061547,
+                "name": "Varna",
+                "boCount": 2,
+                "englishName": "Varna",
+                "sport": "TENNIS",
+                "eventCount": 2,
+                "termKey": "varna"
+              }
+            ],
+            "sport": "TENNIS",
+            "eventCount": 13,
+            "termKey": "itf_women"
+          },
+          {
+            "id": 2000125413,
+            "name": "UTR Pro Tennis Series",
+            "boCount": 49,
+            "englishName": "UTR Pro Tennis Series",
+            "groups": [
+              {
+                "id": 2010133115,
+                "name": "Japan",
+                "boCount": 49,
+                "englishName": "Japan",
+                "sport": "TENNIS",
+                "termKey": "japan"
+              }
+            ],
+            "sport": "TENNIS",
+            "termKey": "utr_pro_tennis_series"
+          },
+          {
+            "id": 2010202930,
+            "name": "WTA125 Qual.",
+            "boCount": 3,
+            "englishName": "WTA125 Qual.",
+            "groups": [
+              {
+                "id": 2010205576,
+                "name": "Mallorca",
+                "boCount": 3,
+                "englishName": "Mallorca",
+                "sport": "TENNIS",
+                "eventCount": 3,
+                "termKey": "mallorca"
+              }
+            ],
+            "sport": "TENNIS",
+            "eventCount": 3,
+            "termKey": "wta125_qual_"
+          }
+        ],
+        "sport": "TENNIS",
+        "eventCount": 184,
+        "secondsToNextEvent": 713,
+        "termKey": "tennis",
+        "sortOrder": "2"
+      },
+      {
+        "id": 1000093204,
+        "name": "Basketball",
+        "boCount": 2923,
+        "englishName": "Basketball",
+        "groups": [
+          {
+            "id": 1000174277,
+            "name": "WNBA",
+            "boCount": 62,
+            "englishName": "WNBA",
+            "sport": "BASKETBALL",
+            "eventCount": 8,
+            "termKey": "wnba",
+            "sortOrder": "1"
+          },
+          {
+            "id": 1000093652,
+            "name": "NBA",
+            "boCount": 173,
+            "englishName": "NBA",
+            "sport": "BASKETBALL",
+            "eventCount": 152,
+            "termKey": "nba",
+            "sortOrder": "3"
+          },
+          {
+            "id": 1000093654,
+            "name": "NCAAB",
+            "boCount": 2,
+            "englishName": "NCAAB",
+            "sport": "BASKETBALL",
+            "eventCount": 2,
+            "termKey": "ncaab",
+            "sortOrder": "4"
+          },
+          {
+            "id": 1000093451,
+            "name": "Euroleague",
+            "boCount": 1,
+            "englishName": "Euroleague",
+            "sport": "BASKETBALL",
+            "eventCount": 61,
+            "termKey": "euroleague",
+            "sortOrder": "5"
+          },
+          {
+            "id": 1000463001,
+            "name": "Australia",
+            "boCount": 1,
+            "englishName": "Australia",
+            "groups": [
+              {
+                "id": 1000286559,
+                "name": "NBL",
+                "boCount": 1,
+                "englishName": "NBL",
+                "sport": "BASKETBALL",
+                "eventCount": 34,
+                "termKey": "nbl",
+                "sortOrder": "1"
+              }
+            ],
+            "sport": "BASKETBALL",
+            "eventCount": 34,
+            "termKey": "australia"
+          },
+          {
+            "id": 1000463002,
+            "name": "Austria",
+            "boCount": 31,
+            "englishName": "Austria",
+            "groups": [
+              {
+                "id": 1000280896,
+                "name": "ÖBL",
+                "boCount": 31,
+                "englishName": "ÖBL",
+                "sport": "BASKETBALL",
+                "eventCount": 1,
+                "termKey": "obl"
+              }
+            ],
+            "sport": "BASKETBALL",
+            "eventCount": 1,
+            "termKey": "austria"
+          },
+          {
+            "id": 2000131548,
+            "name": "BNXT League",
+            "boCount": 55,
+            "englishName": "BNXT League",
+            "sport": "BASKETBALL",
+            "eventCount": 34,
+            "termKey": "bnxt_league"
+          },
+          {
+            "id": 1000462984,
+            "name": "Czech Republic",
+            "boCount": 45,
+            "englishName": "Czech Republic",
+            "groups": [
+              {
+                "id": 1000278309,
+                "name": "NBL",
+                "boCount": 45,
+                "englishName": "NBL",
+                "sport": "BASKETBALL",
+                "eventCount": 1,
+                "termKey": "nbl"
+              }
+            ],
+            "sport": "BASKETBALL",
+            "eventCount": 2,
+            "termKey": "czech_republic"
+          },
+          {
+            "id": 1000462977,
+            "name": "Finland",
+            "boCount": 54,
+            "englishName": "Finland",
+            "groups": [
+              {
+                "id": 1000095365,
+                "name": "Korisliiga",
+                "boCount": 54,
+                "englishName": "Korisliiga",
+                "sport": "BASKETBALL",
+                "eventCount": 1,
+                "termKey": "korisliiga"
+              }
+            ],
+            "sport": "BASKETBALL",
+            "eventCount": 1,
+            "termKey": "finland"
+          },
+          {
+            "id": 1000463070,
+            "name": "France",
+            "boCount": 165,
+            "englishName": "France",
+            "groups": [
+              {
+                "id": 1000094821,
+                "name": "Elite",
+                "boCount": 165,
+                "englishName": "Elite",
+                "sport": "BASKETBALL",
+                "eventCount": 36,
+                "termKey": "elite"
+              }
+            ],
+            "sport": "BASKETBALL",
+            "eventCount": 37,
+            "termKey": "france"
+          },
+          {
+            "id": 1000462975,
+            "name": "Germany",
+            "boCount": 90,
+            "englishName": "Germany",
+            "groups": [
+              {
+                "id": 1000094172,
+                "name": "BBL",
+                "boCount": 90,
+                "englishName": "BBL",
+                "sport": "BASKETBALL",
+                "eventCount": 32,
+                "termKey": "bbl"
+              }
+            ],
+            "sport": "BASKETBALL",
+            "eventCount": 41,
+            "termKey": "germany"
+          },
+          {
+            "id": 1000462999,
+            "name": "Greece",
+            "boCount": 229,
+            "englishName": "Greece",
+            "groups": [
+              {
+                "id": 1000094135,
+                "name": "GBL",
+                "boCount": 229,
+                "englishName": "GBL",
+                "sport": "BASKETBALL",
+                "eventCount": 27,
+                "termKey": "gbl"
+              }
+            ],
+            "sport": "BASKETBALL",
+            "eventCount": 27,
+            "termKey": "greece"
+          },
+          {
+            "id": 1000462996,
+            "name": "Italy",
+            "boCount": 698,
+            "englishName": "Italy",
+            "groups": [
+              {
+                "id": 1000094714,
+                "name": "Lega A",
+                "boCount": 698,
+                "englishName": "Lega A",
+                "sport": "BASKETBALL",
+                "eventCount": 40,
+                "termKey": "lega_a"
+              }
+            ],
+            "sport": "BASKETBALL",
+            "eventCount": 49,
+            "termKey": "italy"
+          },
+          {
+            "id": 2000050608,
+            "name": "Japan",
+            "boCount": 585,
+            "englishName": "Japan",
+            "groups": [
+              {
+                "id": 2000097452,
+                "name": "B.League",
+                "boCount": 585,
+                "englishName": "B.League",
+                "sport": "BASKETBALL",
+                "eventCount": 13,
+                "secondsToNextEvent": 1013,
+                "termKey": "b_league"
+              }
+            ],
+            "sport": "BASKETBALL",
+            "eventCount": 20,
+            "secondsToNextEvent": 1013,
+            "termKey": "japan"
+          },
+          {
+            "id": 2010200152,
+            "name": "NBA Cup",
+            "boCount": 8,
+            "englishName": "NBA Cup",
+            "sport": "BASKETBALL",
+            "eventCount": 8,
+            "termKey": "nba_cup"
+          },
+          {
+            "id": 2000066696,
+            "name": "NBA Preseason",
+            "boCount": 21,
+            "englishName": "NBA Preseason",
+            "sport": "BASKETBALL",
+            "eventCount": 63,
+            "termKey": "nba_preseason"
+          },
+          {
+            "id": 2000054461,
+            "name": "NCAAW",
+            "boCount": 1,
+            "englishName": "NCAAW",
+            "sport": "BASKETBALL",
+            "eventCount": 1,
+            "termKey": "ncaaw"
+          },
+          {
+            "id": 1000463061,
+            "name": "Poland",
+            "boCount": 19,
+            "englishName": "Poland",
+            "groups": [
+              {
+                "id": 1000443916,
+                "name": "PLK",
+                "boCount": 19,
+                "englishName": "PLK",
+                "sport": "BASKETBALL",
+                "eventCount": 3,
+                "termKey": "plk"
+              }
+            ],
+            "sport": "BASKETBALL",
+            "eventCount": 5,
+            "termKey": "poland"
+          },
+          {
+            "id": 2000050472,
+            "name": "Portugal",
+            "boCount": 45,
+            "englishName": "Portugal",
+            "groups": [
+              {
+                "id": 2000054565,
+                "name": "LPB",
+                "boCount": 45,
+                "englishName": "LPB",
+                "sport": "BASKETBALL",
+                "eventCount": 1,
+                "termKey": "lpb"
+              }
+            ],
+            "sport": "BASKETBALL",
+            "eventCount": 2,
+            "termKey": "portugal"
+          },
+          {
+            "id": 2000050628,
+            "name": "South Korea",
+            "boCount": 90,
+            "englishName": "South Korea",
+            "groups": [
+              {
+                "id": 2000050629,
+                "name": "KBL",
+                "boCount": 90,
+                "englishName": "KBL",
+                "sport": "BASKETBALL",
+                "eventCount": 4,
+                "secondsToNextEvent": 713,
+                "termKey": "kbl"
+              }
+            ],
+            "sport": "BASKETBALL",
+            "eventCount": 4,
+            "secondsToNextEvent": 713,
+            "termKey": "south_korea"
+          },
+          {
+            "id": 1000463062,
+            "name": "Spain",
+            "boCount": 527,
+            "englishName": "Spain",
+            "groups": [
+              {
+                "id": 1000094189,
+                "name": "Liga ACB",
+                "boCount": 527,
+                "englishName": "Liga ACB",
+                "sport": "BASKETBALL",
+                "eventCount": 42,
+                "termKey": "liga_acb",
+                "sortOrder": "1"
+              }
+            ],
+            "sport": "BASKETBALL",
+            "eventCount": 46,
+            "termKey": "spain"
+          },
+          {
+            "id": 1000463066,
+            "name": "Turkey",
+            "boCount": 21,
+            "englishName": "Turkey",
+            "groups": [
+              {
+                "id": 1000188349,
+                "name": "Super League",
+                "boCount": 21,
+                "englishName": "Super League",
+                "sport": "BASKETBALL",
+                "eventCount": 4,
+                "termKey": "super_league"
+              }
+            ],
+            "sport": "BASKETBALL",
+            "eventCount": 7,
+            "termKey": "turkey"
+          }
+        ],
+        "sport": "BASKETBALL",
+        "eventCount": 898,
+        "secondsToNextEvent": 713,
+        "termKey": "basketball",
+        "sortOrder": "3"
+      },
+      {
+        "id": 1000093191,
+        "name": "Ice Hockey",
+        "boCount": 3302,
+        "englishName": "Ice Hockey",
+        "groups": [
+          {
+            "id": 1000093657,
+            "name": "NHL",
+            "boCount": 339,
+            "englishName": "NHL",
+            "sport": "ICE_HOCKEY",
+            "eventCount": 316,
+            "termKey": "nhl",
+            "sortOrder": "2"
+          },
+          {
+            "id": 1000093961,
+            "name": "World Championship",
+            "boCount": 1,
+            "englishName": "World Championship",
+            "sport": "ICE_HOCKEY",
+            "eventCount": 1,
+            "termKey": "world_championship",
+            "sortOrder": "5"
+          },
+          {
+            "id": 1000461831,
+            "name": "Czech Republic",
+            "boCount": 815,
+            "englishName": "Czech Republic",
+            "groups": [
+              {
+                "id": 1000094960,
+                "name": "Extraliga",
+                "boCount": 815,
+                "englishName": "Extraliga",
+                "sport": "ICE_HOCKEY",
+                "eventCount": 11,
+                "termKey": "extraliga",
+                "sortOrder": "1"
+              }
+            ],
+            "sport": "ICE_HOCKEY",
+            "eventCount": 11,
+            "termKey": "czech_republic",
+            "sortOrder": "7"
+          },
+          {
+            "id": 1000461918,
+            "name": "Finland",
+            "boCount": 1,
+            "englishName": "Finland",
+            "groups": [
+              {
+                "id": 1000094964,
+                "name": "Liiga",
+                "boCount": 1,
+                "englishName": "Liiga",
+                "sport": "ICE_HOCKEY",
+                "eventCount": 93,
+                "termKey": "liiga",
+                "sortOrder": "1"
+              }
+            ],
+            "sport": "ICE_HOCKEY",
+            "eventCount": 94,
+            "termKey": "finland",
+            "sortOrder": "8"
+          },
+          {
+            "id": 1000461824,
+            "name": "Germany",
+            "boCount": 724,
+            "englishName": "Germany",
+            "groups": [
+              {
+                "id": 1000094966,
+                "name": "DEL Bundesliga",
+                "boCount": 724,
+                "englishName": "DEL Bundesliga",
+                "sport": "ICE_HOCKEY",
+                "eventCount": 13,
+                "termKey": "del_bundesliga",
+                "sortOrder": "1"
+              }
+            ],
+            "sport": "ICE_HOCKEY",
+            "eventCount": 20,
+            "termKey": "germany",
+            "sortOrder": "9"
+          },
+          {
+            "id": 1000461910,
+            "name": "Sweden",
+            "boCount": 14,
+            "englishName": "Sweden",
+            "groups": [
+              {
+                "id": 1000094968,
+                "name": "SHL",
+                "boCount": 14,
+                "englishName": "SHL",
+                "sport": "ICE_HOCKEY",
+                "eventCount": 80,
+                "termKey": "shl",
+                "sortOrder": "1"
+              }
+            ],
+            "sport": "ICE_HOCKEY",
+            "eventCount": 165,
+            "termKey": "sweden",
+            "sortOrder": "10"
+          },
+          {
+            "id": 1000461847,
+            "name": "Austria",
+            "boCount": 1,
+            "englishName": "Austria",
+            "groups": [
+              {
+                "id": 1000095579,
+                "name": "ICE Hockey League",
+                "boCount": 1,
+                "englishName": "ICE Hockey League",
+                "sport": "ICE_HOCKEY",
+                "eventCount": 4,
+                "termKey": "ice_hockey_league"
+              }
+            ],
+            "sport": "ICE_HOCKEY",
+            "eventCount": 4,
+            "termKey": "austria"
+          },
+          {
+            "id": 2000077908,
+            "name": "Champions Hockey League",
+            "boCount": 26,
+            "englishName": "Champions Hockey League",
+            "sport": "ICE_HOCKEY",
+            "eventCount": 25,
+            "termKey": "champions_hockey_league"
+          },
+          {
+            "id": 1000461832,
+            "name": "Denmark",
+            "boCount": 242,
+            "englishName": "Denmark",
+            "groups": [
+              {
+                "id": 1000094962,
+                "name": "Metal Ligaen",
+                "boCount": 242,
+                "englishName": "Metal Ligaen",
+                "sport": "ICE_HOCKEY",
+                "eventCount": 3,
+                "termKey": "metal_ligaen"
+              }
+            ],
+            "sport": "ICE_HOCKEY",
+            "eventCount": 3,
+            "termKey": "denmark"
+          },
+          {
+            "id": 1000461823,
+            "name": "France",
+            "boCount": 24,
+            "englishName": "France",
+            "groups": [
+              {
+                "id": 1000094829,
+                "name": "Ligue Magnus",
+                "boCount": 24,
+                "englishName": "Ligue Magnus",
+                "sport": "ICE_HOCKEY",
+                "eventCount": 2,
+                "termKey": "ligue_magnus"
+              }
+            ],
+            "sport": "ICE_HOCKEY",
+            "eventCount": 2,
+            "termKey": "france"
+          },
+          {
+            "id": 2000053235,
+            "name": "NCAA",
+            "boCount": 1,
+            "englishName": "NCAA",
+            "sport": "ICE_HOCKEY",
+            "eventCount": 1,
+            "termKey": "ncaa"
+          },
+          {
+            "id": 1000461840,
+            "name": "Norway",
+            "boCount": 1,
+            "englishName": "Norway",
+            "groups": [
+              {
+                "id": 1000094967,
+                "name": "EHL",
+                "boCount": 1,
+                "englishName": "EHL",
+                "sport": "ICE_HOCKEY",
+                "eventCount": 1,
+                "termKey": "ehl",
+                "sortOrder": "10"
+              }
+            ],
+            "sport": "ICE_HOCKEY",
+            "eventCount": 1,
+            "termKey": "norway"
+          },
+          {
+            "id": 1000461891,
+            "name": "Poland",
+            "boCount": 36,
+            "englishName": "Poland",
+            "groups": [
+              {
+                "id": 1000430420,
+                "name": "PLH",
+                "boCount": 36,
+                "englishName": "PLH",
+                "sport": "ICE_HOCKEY",
+                "eventCount": 3,
+                "termKey": "plh"
+              }
+            ],
+            "sport": "ICE_HOCKEY",
+            "eventCount": 3,
+            "termKey": "poland"
+          },
+          {
+            "id": 1000461914,
+            "name": "Slovakia",
+            "boCount": 707,
+            "englishName": "Slovakia",
+            "groups": [
+              {
+                "id": 1000126348,
+                "name": "Extraliga",
+                "boCount": 707,
+                "englishName": "Extraliga",
+                "sport": "ICE_HOCKEY",
+                "eventCount": 8,
+                "termKey": "extraliga"
+              }
+            ],
+            "sport": "ICE_HOCKEY",
+            "eventCount": 8,
+            "termKey": "slovakia"
+          },
+          {
+            "id": 1000461911,
+            "name": "Switzerland",
+            "boCount": 348,
+            "englishName": "Switzerland",
+            "groups": [
+              {
+                "id": 1000094972,
+                "name": "NLA",
+                "boCount": 348,
+                "englishName": "NLA",
+                "sport": "ICE_HOCKEY",
+                "eventCount": 6,
+                "termKey": "nla"
+              }
+            ],
+            "sport": "ICE_HOCKEY",
+            "eventCount": 6,
+            "termKey": "switzerland"
+          },
+          {
+            "id": 2000089352,
+            "name": "United Kingdom",
+            "boCount": 22,
+            "englishName": "United Kingdom",
+            "groups": [
+              {
+                "id": 2000089354,
+                "name": "Elite Ice Hockey League",
+                "boCount": 22,
+                "englishName": "Elite Ice Hockey League",
+                "sport": "ICE_HOCKEY",
+                "eventCount": 2,
+                "termKey": "elite_ice_hockey_league"
+              }
+            ],
+            "sport": "ICE_HOCKEY",
+            "eventCount": 2,
+            "termKey": "united_kingdom"
+          }
+        ],
+        "sport": "ICE_HOCKEY",
+        "eventCount": 675,
+        "termKey": "ice_hockey",
+        "sortOrder": "4"
+      },
+      {
+        "id": 1000093238,
+        "name": "UFC/MMA",
+        "boCount": 32,
+        "englishName": "UFC/MMA",
+        "groups": [
+          {
+            "id": 1000093883,
+            "name": "UFC",
+            "boCount": 32,
+            "englishName": "UFC",
+            "sport": "MARTIAL_ARTS",
+            "eventCount": 45,
+            "termKey": "ufc",
+            "sortOrder": "1"
+          }
+        ],
+        "sport": "MARTIAL_ARTS",
+        "eventCount": 88,
+        "termKey": "ufc_mma",
+        "sortOrder": "5"
+      },
+      {
+        "id": 2000077768,
+        "name": "Esports",
+        "boCount": 1352,
+        "englishName": "Esports",
+        "groups": [
+          {
+            "id": 2010200623,
+            "name": "CS2",
+            "boCount": 1352,
+            "englishName": "CS2",
+            "groups": [
+              {
+                "id": 2010201151,
+                "name": "ESL Pro League",
+                "boCount": 1352,
+                "englishName": "ESL Pro League",
+                "sport": "COUNTER_STRIKE",
+                "eventCount": 11,
+                "termKey": "esl_pro_league",
+                "sortOrder": "7"
+              }
+            ],
+            "sport": "COUNTER_STRIKE",
+            "eventCount": 36,
+            "termKey": "cs2",
+            "sortOrder": "2"
+          }
+        ],
+        "sport": "ESPORTS",
+        "eventCount": 88,
+        "termKey": "esports",
+        "sortOrder": "6"
+      },
+      {
+        "id": 1000093211,
+        "name": "Baseball",
+        "boCount": 48,
+        "englishName": "Baseball",
+        "groups": [
+          {
+            "id": 1000093616,
+            "name": "MLB",
+            "boCount": 21,
+            "englishName": "MLB",
+            "sport": "BASEBALL",
+            "eventCount": 38,
+            "termKey": "mlb",
+            "sortOrder": "1"
+          },
+          {
+            "id": 2000051109,
+            "name": "Japan",
+            "boCount": 18,
+            "englishName": "Japan",
+            "groups": [
+              {
+                "id": 2000106913,
+                "name": "NPB",
+                "boCount": 18,
+                "englishName": "NPB",
+                "sport": "BASEBALL",
+                "eventCount": 3,
+                "secondsToNextEvent": 713,
+                "termKey": "npb"
+              }
+            ],
+            "sport": "BASEBALL",
+            "eventCount": 3,
+            "secondsToNextEvent": 713,
+            "termKey": "japan"
+          },
+          {
+            "id": 2000123979,
+            "name": "Taiwan",
+            "boCount": 8,
+            "englishName": "Taiwan",
+            "groups": [
+              {
+                "id": 2000123982,
+                "name": "Chinese Professional Baseball",
+                "boCount": 8,
+                "englishName": "Chinese Professional Baseball",
+                "sport": "BASEBALL",
+                "eventCount": 3,
+                "termKey": "chinese_professional_baseball"
+              }
+            ],
+            "sport": "BASEBALL",
+            "eventCount": 3,
+            "termKey": "taiwan"
+          },
+          {
+            "id": 1000093918,
+            "name": "World Baseball Classic",
+            "boCount": 1,
+            "englishName": "World Baseball Classic",
+            "sport": "BASEBALL",
+            "eventCount": 1,
+            "termKey": "world_baseball_classic"
+          }
+        ],
+        "sport": "BASEBALL",
+        "eventCount": 48,
+        "secondsToNextEvent": 713,
+        "termKey": "baseball",
+        "sortOrder": "7"
+      },
+      {
+        "id": 1000093199,
+        "name": "American Football",
+        "boCount": 7075,
+        "englishName": "American Football",
+        "groups": [
+          {
+            "id": 1000093656,
+            "name": "NFL",
+            "boCount": 7019,
+            "englishName": "NFL",
+            "sport": "AMERICAN_FOOTBALL",
+            "eventCount": 340,
+            "termKey": "nfl",
+            "sortOrder": "1"
+          },
+          {
+            "id": 1000093655,
+            "name": "NCAAF",
+            "boCount": 56,
+            "englishName": "NCAAF",
+            "sport": "AMERICAN_FOOTBALL",
+            "eventCount": 535,
+            "termKey": "ncaaf",
+            "sortOrder": "4"
+          }
+        ],
+        "sport": "AMERICAN_FOOTBALL",
+        "eventCount": 954,
+        "termKey": "american_football"
+      },
+      {
+        "id": 1000449347,
+        "name": "Australian Rules",
+        "boCount": 1,
+        "englishName": "Australian Rules",
+        "groups": [
+          {
+            "id": 1000470474,
+            "name": "AFL",
+            "boCount": 1,
+            "englishName": "AFL",
+            "sport": "AUSTRALIAN_RULES",
+            "eventCount": 1,
+            "termKey": "afl",
+            "sortOrder": "1"
+          }
+        ],
+        "sport": "AUSTRALIAN_RULES",
+        "eventCount": 12,
+        "termKey": "australian_rules"
+      },
+      {
+        "id": 2010200233,
+        "name": "Bally Boosts",
+        "boCount": 5,
+        "englishName": "Bally Boosts",
+        "groups": [
+          {
+            "id": 2010200234,
+            "name": "NFL Boosts",
+            "boCount": 3,
+            "englishName": "NFL Boosts",
+            "sport": "SPECIAL_BETS",
+            "eventCount": 3,
+            "termKey": "nfl_boosts"
+          },
+          {
+            "id": 2010200238,
+            "name": "NHL Boosts",
+            "boCount": 1,
+            "englishName": "NHL Boosts",
+            "sport": "SPECIAL_BETS",
+            "eventCount": 7,
+            "termKey": "nhl_boosts"
+          },
+          {
+            "id": 2010200242,
+            "name": "Soccer Boosts",
+            "boCount": 1,
+            "englishName": "Soccer Boosts",
+            "sport": "SPECIAL_BETS",
+            "eventCount": 1,
+            "termKey": "soccer_boosts"
+          }
+        ],
+        "sport": "SPECIAL_BETS",
+        "eventCount": 11,
+        "termKey": "bally_boosts"
+      },
+      {
+        "id": 1000093201,
+        "name": "Boxing",
+        "boCount": 6,
+        "englishName": "Boxing",
+        "groups": [
+          {
+            "id": 2000050854,
+            "name": "Upcoming Fights",
+            "boCount": 6,
+            "englishName": "Upcoming Fights",
+            "sport": "BOXING",
+            "eventCount": 6,
+            "termKey": "upcoming_fights",
+            "sortOrder": "2"
+          }
+        ],
+        "sport": "BOXING",
+        "eventCount": 44,
+        "termKey": "boxing"
+      },
+      {
+        "id": 1000093178,
+        "name": "Cricket",
+        "boCount": 73,
+        "englishName": "Cricket",
+        "groups": [
+          {
+            "id": 2000085730,
+            "name": "International Twenty20",
+            "boCount": 12,
+            "englishName": "International Twenty20",
+            "groups": [
+              {
+                "id": 2000125182,
+                "name": "Matches",
+                "boCount": 12,
+                "englishName": "Matches",
+                "sport": "CRICKET",
+                "eventCount": 10,
+                "termKey": "matches"
+              }
+            ],
+            "sport": "CRICKET",
+            "eventCount": 10,
+            "termKey": "international_twenty20",
+            "sortOrder": "2"
+          },
+          {
+            "id": 2000063689,
+            "name": "ICC World Cup (W)",
+            "boCount": 58,
+            "englishName": "ICC World Cup (W)",
+            "sport": "CRICKET",
+            "eventCount": 9,
+            "termKey": "icc_world_cup__w_",
+            "sortOrder": "5"
+          },
+          {
+            "id": 1000093838,
+            "name": "The Ashes",
+            "boCount": 1,
+            "englishName": "The Ashes",
+            "groups": [
+              {
+                "id": 2000054280,
+                "name": "Series",
+                "boCount": 1,
+                "englishName": "Series",
+                "sport": "CRICKET",
+                "eventCount": 1,
+                "termKey": "series"
+              }
+            ],
+            "sport": "CRICKET",
+            "eventCount": 1,
+            "termKey": "the_ashes",
+            "sortOrder": "11"
+          },
+          {
+            "id": 2010203792,
+            "name": "ICC T20 World Cup",
+            "boCount": 1,
+            "englishName": "ICC T20 World Cup",
+            "sport": "CRICKET",
+            "eventCount": 1,
+            "termKey": "icc_t20_world_cup",
+            "sortOrder": "12"
+          },
+          {
+            "id": 2010201746,
+            "name": "ICC World Cup 2027",
+            "boCount": 1,
+            "englishName": "ICC World Cup 2027",
+            "sport": "CRICKET",
+            "eventCount": 1,
+            "termKey": "icc_world_cup_2027",
+            "sortOrder": "13"
+          }
+        ],
+        "sport": "CRICKET",
+        "eventCount": 36,
+        "termKey": "cricket"
+      },
+      {
+        "id": 1000093233,
+        "name": "Cycling",
+        "boCount": 25,
+        "englishName": "Cycling",
+        "groups": [
+          {
+            "id": 1000093855,
+            "name": "Tour de France",
+            "boCount": 1,
+            "englishName": "Tour de France",
+            "groups": [
+              {
+                "id": 2000051976,
+                "name": "Classification",
+                "boCount": 1,
+                "englishName": "Classification",
+                "sport": "CYCLING",
+                "eventCount": 1,
+                "termKey": "classification",
+                "sortOrder": "4"
+              }
+            ],
+            "sport": "CYCLING",
+            "eventCount": 1,
+            "termKey": "tour_de_france",
+            "sortOrder": "2"
+          },
+          {
+            "id": 2000097112,
+            "name": "European Championships",
+            "boCount": 22,
+            "englishName": "European Championships",
+            "groups": [
+              {
+                "id": 2000097113,
+                "name": "Road Race",
+                "boCount": 22,
+                "englishName": "Road Race",
+                "sport": "CYCLING",
+                "eventCount": 1,
+                "termKey": "road_race"
+              }
+            ],
+            "sport": "CYCLING",
+            "eventCount": 1,
+            "termKey": "european_championships"
+          },
+          {
+            "id": 1000093633,
+            "name": "Milano - Sanremo",
+            "boCount": 1,
+            "englishName": "Milano - Sanremo",
+            "groups": [
+              {
+                "id": 2000051981,
+                "name": "Classification",
+                "boCount": 1,
+                "englishName": "Classification",
+                "sport": "CYCLING",
+                "eventCount": 1,
+                "termKey": "classification",
+                "sortOrder": "1"
+              }
+            ],
+            "sport": "CYCLING",
+            "eventCount": 1,
+            "termKey": "milano_-_sanremo"
+          },
+          {
+            "id": 1000093690,
+            "name": "Paris - Roubaix",
+            "boCount": 1,
+            "englishName": "Paris - Roubaix",
+            "groups": [
+              {
+                "id": 2000051989,
+                "name": "Classification",
+                "boCount": 1,
+                "englishName": "Classification",
+                "sport": "CYCLING",
+                "eventCount": 1,
+                "termKey": "classification"
+              }
+            ],
+            "sport": "CYCLING",
+            "eventCount": 1,
+            "termKey": "paris_-_roubaix"
+          }
+        ],
+        "sport": "CYCLING",
+        "eventCount": 6,
+        "termKey": "cycling"
+      },
+      {
+        "id": 1000093225,
+        "name": "Darts",
+        "boCount": 1,
+        "englishName": "Darts",
+        "groups": [
+          {
+            "id": 1000093681,
+            "name": "PDC World Championship",
+            "boCount": 1,
+            "englishName": "PDC World Championship",
+            "sport": "DARTS",
+            "eventCount": 1,
+            "termKey": "pdc_world_championship",
+            "sortOrder": "2"
+          }
+        ],
+        "sport": "DARTS",
+        "eventCount": 23,
+        "termKey": "darts"
+      },
+      {
+        "id": 2010132269,
+        "name": "Formula 1",
+        "boCount": 62,
+        "englishName": "Formula 1",
+        "groups": [
+          {
+            "id": 2010132272,
+            "name": "Race",
+            "boCount": 60,
+            "englishName": "Race",
+            "sport": "FORMULA_1",
+            "eventCount": 3,
+            "termKey": "race",
+            "sortOrder": "1"
+          },
+          {
+            "id": 2010132274,
+            "name": "Season Bets",
+            "boCount": 2,
+            "englishName": "Season Bets",
+            "sport": "FORMULA_1",
+            "eventCount": 36,
+            "termKey": "season_bets",
+            "sortOrder": "6"
+          }
+        ],
+        "sport": "FORMULA_1",
+        "eventCount": 44,
+        "termKey": "formula_1"
+      },
+      {
+        "id": 1000093187,
+        "name": "Golf",
+        "boCount": 94,
+        "englishName": "Golf",
+        "groups": [
+          {
+            "id": 2000127173,
+            "name": "Team Events",
+            "boCount": 3,
+            "englishName": "Team Events",
+            "groups": [
+              {
+                "id": 2000127174,
+                "name": "Ryder Cup",
+                "boCount": 1,
+                "englishName": "Ryder Cup",
+                "sport": "GOLF",
+                "eventCount": 1,
+                "termKey": "ryder_cup",
+                "sortOrder": "3"
+              },
+              {
+                "id": 2000127176,
+                "name": "Solheim Cup",
+                "boCount": 1,
+                "englishName": "Solheim Cup",
+                "sport": "GOLF",
+                "eventCount": 1,
+                "termKey": "solheim_cup",
+                "sortOrder": "4"
+              },
+              {
+                "id": 2000127175,
+                "name": "Presidents Cup",
+                "boCount": 1,
+                "englishName": "Presidents Cup",
+                "sport": "GOLF",
+                "eventCount": 1,
+                "termKey": "presidents_cup",
+                "sortOrder": "5"
+              }
+            ],
+            "sport": "GOLF",
+            "eventCount": 3,
+            "termKey": "team_events",
+            "sortOrder": "1"
+          },
+          {
+            "id": 1000093683,
+            "name": "PGA Tour",
+            "boCount": 1,
+            "englishName": "PGA Tour",
+            "groups": [
+              {
+                "id": 2000126188,
+                "name": "Sanderson Farms Championship",
+                "boCount": 1,
+                "englishName": "Sanderson Farms Championship",
+                "sport": "GOLF",
+                "eventCount": 1,
+                "termKey": "sanderson_farms_championship"
+              }
+            ],
+            "sport": "GOLF",
+            "eventCount": 1,
+            "termKey": "pga_tour",
+            "sortOrder": "2"
+          },
+          {
+            "id": 1000093480,
+            "name": "DP World Tour",
+            "boCount": 84,
+            "englishName": "DP World Tour",
+            "groups": [
+              {
+                "id": 2000131540,
+                "name": "Alfred Dunhill Links Championship",
+                "boCount": 84,
+                "englishName": "Alfred Dunhill Links Championship",
+                "sport": "GOLF",
+                "eventCount": 42,
+                "termKey": "alfred_dunhill_links_championship"
+              }
+            ],
+            "sport": "GOLF",
+            "eventCount": 42,
+            "termKey": "dp_world_tour",
+            "sortOrder": "3"
+          },
+          {
+            "id": 2000126312,
+            "name": "The Majors",
+            "boCount": 4,
+            "englishName": "The Majors",
+            "groups": [
+              {
+                "id": 2000126316,
+                "name": "Masters Tournament",
+                "boCount": 1,
+                "englishName": "Masters Tournament",
+                "sport": "GOLF",
+                "eventCount": 1,
+                "termKey": "masters_tournament",
+                "sortOrder": "1"
+              },
+              {
+                "id": 2000126315,
+                "name": "PGA Championship",
+                "boCount": 1,
+                "englishName": "PGA Championship",
+                "sport": "GOLF",
+                "eventCount": 1,
+                "termKey": "pga_championship",
+                "sortOrder": "2"
+              },
+              {
+                "id": 2000126314,
+                "name": "U.S. Open",
+                "boCount": 1,
+                "englishName": "U.S. Open",
+                "sport": "GOLF",
+                "eventCount": 1,
+                "termKey": "u_s__open",
+                "sortOrder": "3"
+              },
+              {
+                "id": 2000126313,
+                "name": "The Open Championship",
+                "boCount": 1,
+                "englishName": "The Open Championship",
+                "sport": "GOLF",
+                "eventCount": 1,
+                "termKey": "the_open_championship",
+                "sortOrder": "4"
+              }
+            ],
+            "sport": "GOLF",
+            "eventCount": 4,
+            "termKey": "the_majors",
+            "sortOrder": "6"
+          },
+          {
+            "id": 2000052390,
+            "name": "Season Bets",
+            "boCount": 2,
+            "englishName": "Season Bets",
+            "groups": [
+              {
+                "id": 2000060606,
+                "name": "Majors",
+                "boCount": 2,
+                "englishName": "Majors",
+                "sport": "GOLF",
+                "eventCount": 1,
+                "termKey": "majors"
+              }
+            ],
+            "sport": "GOLF",
+            "eventCount": 1,
+            "termKey": "season_bets"
+          }
+        ],
+        "sport": "GOLF",
+        "eventCount": 51,
+        "termKey": "golf"
+      },
+      {
+        "id": 1000093205,
+        "name": "Handball",
+        "boCount": 272,
+        "englishName": "Handball",
+        "groups": [
+          {
+            "id": 1000174358,
+            "name": "Champions League (W)",
+            "boCount": 42,
+            "englishName": "Champions League (W)",
+            "sport": "HANDBALL",
+            "eventCount": 19,
+            "termKey": "champions_league__w_",
+            "sortOrder": "2"
+          },
+          {
+            "id": 1000174363,
+            "name": "World Championship (W)",
+            "boCount": 1,
+            "englishName": "World Championship (W)",
+            "sport": "HANDBALL",
+            "eventCount": 1,
+            "termKey": "world_championship__w_",
+            "sortOrder": "4"
+          },
+          {
+            "id": 1000463166,
+            "name": "France",
+            "boCount": 13,
+            "englishName": "France",
+            "groups": [
+              {
+                "id": 1000094826,
+                "name": "LNH D1",
+                "boCount": 13,
+                "englishName": "LNH D1",
+                "sport": "HANDBALL",
+                "eventCount": 1,
+                "termKey": "lnh_d1",
+                "sortOrder": "1"
+              }
+            ],
+            "sport": "HANDBALL",
+            "eventCount": 1,
+            "termKey": "france",
+            "sortOrder": "7"
+          },
+          {
+            "id": 1000463071,
+            "name": "Germany",
+            "boCount": 82,
+            "englishName": "Germany",
+            "groups": [
+              {
+                "id": 1000095011,
+                "name": "Bundesliga",
+                "boCount": 56,
+                "englishName": "Bundesliga",
+                "sport": "HANDBALL",
+                "eventCount": 6,
+                "termKey": "bundesliga",
+                "sortOrder": "1"
+              },
+              {
+                "id": 2000055957,
+                "name": "2. Bundesliga",
+                "boCount": 20,
+                "englishName": "2. Bundesliga",
+                "sport": "HANDBALL",
+                "eventCount": 5,
+                "termKey": "2__bundesliga"
+              },
+              {
+                "id": 1000425355,
+                "name": "Bundesliga Women",
+                "boCount": 6,
+                "englishName": "Bundesliga Women",
+                "sport": "HANDBALL",
+                "eventCount": 1,
+                "termKey": "bundesliga_women"
+              }
+            ],
+            "sport": "HANDBALL",
+            "eventCount": 12,
+            "termKey": "germany",
+            "sortOrder": "8"
+          },
+          {
+            "id": 1000463158,
+            "name": "Spain",
+            "boCount": 42,
+            "englishName": "Spain",
+            "groups": [
+              {
+                "id": 1000094868,
+                "name": "Liga ASOBAL",
+                "boCount": 42,
+                "englishName": "Liga ASOBAL",
+                "sport": "HANDBALL",
+                "eventCount": 3,
+                "termKey": "liga_asobal",
+                "sortOrder": "1"
+              }
+            ],
+            "sport": "HANDBALL",
+            "eventCount": 3,
+            "termKey": "spain",
+            "sortOrder": "9"
+          },
+          {
+            "id": 1000463077,
+            "name": "Denmark",
+            "boCount": 22,
+            "englishName": "Denmark",
+            "groups": [
+              {
+                "id": 1000094198,
+                "name": "Herre Håndbold Ligaen",
+                "boCount": 14,
+                "englishName": "Herre Håndbold Ligaen",
+                "sport": "HANDBALL",
+                "eventCount": 2,
+                "termKey": "herre_handbold_ligaen",
+                "sortOrder": "1"
+              },
+              {
+                "id": 1000444999,
+                "name": "1. Division Men",
+                "boCount": 8,
+                "englishName": "1. Division Men",
+                "sport": "HANDBALL",
+                "eventCount": 2,
+                "termKey": "1__division_men",
+                "sortOrder": "3"
+              }
+            ],
+            "sport": "HANDBALL",
+            "eventCount": 5,
+            "termKey": "denmark",
+            "sortOrder": "10"
+          },
+          {
+            "id": 1000463159,
+            "name": "Sweden",
+            "boCount": 15,
+            "englishName": "Sweden",
+            "groups": [
+              {
+                "id": 1000095041,
+                "name": "Handbollsligan",
+                "boCount": 11,
+                "englishName": "Handbollsligan",
+                "sport": "HANDBALL",
+                "eventCount": 28,
+                "termKey": "handbollsligan",
+                "sortOrder": "1"
+              },
+              {
+                "id": 1000174383,
+                "name": "Handbollsligan (W)",
+                "boCount": 4,
+                "englishName": "Handbollsligan (W)",
+                "sport": "HANDBALL",
+                "eventCount": 2,
+                "termKey": "handbollsligan__w_"
+              }
+            ],
+            "sport": "HANDBALL",
+            "eventCount": 30,
+            "termKey": "sweden",
+            "sortOrder": "11"
+          },
+          {
+            "id": 1000463093,
+            "name": "Hungary",
+            "boCount": 4,
+            "englishName": "Hungary",
+            "groups": [
+              {
+                "id": 1000231768,
+                "name": "NB1 Men",
+                "boCount": 4,
+                "englishName": "NB1 Men",
+                "sport": "HANDBALL",
+                "eventCount": 1,
+                "termKey": "nb1_men"
+              }
+            ],
+            "sport": "HANDBALL",
+            "eventCount": 1,
+            "termKey": "hungary"
+          },
+          {
+            "id": 1000463085,
+            "name": "Norway",
+            "boCount": 35,
+            "englishName": "Norway",
+            "groups": [
+              {
+                "id": 1000095040,
+                "name": "REMA 1000-ligaen",
+                "boCount": 14,
+                "englishName": "REMA 1000-ligaen",
+                "sport": "HANDBALL",
+                "eventCount": 4,
+                "termKey": "rema_1000-ligaen",
+                "sortOrder": "1"
+              },
+              {
+                "id": 2000055933,
+                "name": "1st Division",
+                "boCount": 12,
+                "englishName": "1st Division",
+                "sport": "HANDBALL",
+                "eventCount": 3,
+                "termKey": "1st_division",
+                "sortOrder": "2"
+              },
+              {
+                "id": 1000174393,
+                "name": "REMA 1000-ligaen (W)",
+                "boCount": 9,
+                "englishName": "REMA 1000-ligaen (W)",
+                "sport": "HANDBALL",
+                "eventCount": 3,
+                "termKey": "rema_1000-ligaen__w_",
+                "sortOrder": "3"
+              }
+            ],
+            "sport": "HANDBALL",
+            "eventCount": 10,
+            "termKey": "norway"
+          },
+          {
+            "id": 1000463157,
+            "name": "Poland",
+            "boCount": 16,
+            "englishName": "Poland",
+            "groups": [
+              {
+                "id": 1000094953,
+                "name": "Superliga",
+                "boCount": 12,
+                "englishName": "Superliga",
+                "sport": "HANDBALL",
+                "eventCount": 4,
+                "termKey": "superliga"
+              },
+              {
+                "id": 1000454431,
+                "name": "Superliga (W)",
+                "boCount": 4,
+                "englishName": "Superliga (W)",
+                "sport": "HANDBALL",
+                "eventCount": 1,
+                "termKey": "superliga__w_"
+              }
+            ],
+            "sport": "HANDBALL",
+            "eventCount": 5,
+            "termKey": "poland"
+          }
+        ],
+        "sport": "HANDBALL",
+        "eventCount": 117,
+        "termKey": "handball"
+      },
+      {
+        "id": 2000119792,
+        "name": "Lacrosse",
+        "boCount": 2,
+        "englishName": "Lacrosse",
+        "groups": [
+          {
+            "id": 2010134059,
+            "name": "National Lacrosse League",
+            "boCount": 1,
+            "englishName": "National Lacrosse League",
+            "sport": "LACROSSE",
+            "eventCount": 1,
+            "termKey": "national_lacrosse_league"
+          },
+          {
+            "id": 2000125752,
+            "name": "Premier Lacrosse League",
+            "boCount": 1,
+            "englishName": "Premier Lacrosse League",
+            "sport": "LACROSSE",
+            "eventCount": 1,
+            "termKey": "premier_lacrosse_league"
+          }
+        ],
+        "sport": "LACROSSE",
+        "eventCount": 2,
+        "termKey": "lacrosse"
+      },
+      {
+        "id": 2000050136,
+        "name": "Motorsports",
+        "boCount": 22,
+        "englishName": "Motorsports",
+        "groups": [
+          {
+            "id": 2000050160,
+            "name": "NASCAR",
+            "boCount": 22,
+            "englishName": "NASCAR",
+            "groups": [
+              {
+                "id": 2000050161,
+                "name": "Cup Series",
+                "boCount": 22,
+                "englishName": "Cup Series",
+                "sport": "NASCAR",
+                "eventCount": 5,
+                "termKey": "cup_series",
+                "sortOrder": "1"
+              }
+            ],
+            "sport": "NASCAR",
+            "eventCount": 7,
+            "termKey": "nascar",
+            "sortOrder": "1"
+          }
+        ],
+        "sport": "MOTORSPORTS",
+        "eventCount": 12,
+        "termKey": "motorsports"
+      },
+      {
+        "id": 1000154363,
+        "name": "Rugby League",
+        "boCount": 526,
+        "englishName": "Rugby League",
+        "groups": [
+          {
+            "id": 2000050687,
+            "name": "NRL",
+            "boCount": 311,
+            "englishName": "NRL",
+            "sport": "RUGBY_LEAGUE",
+            "eventCount": 10,
+            "termKey": "nrl",
+            "sortOrder": "1"
+          },
+          {
+            "id": 2000117032,
+            "name": "NRL (W)",
+            "boCount": 215,
+            "englishName": "NRL (W)",
+            "sport": "RUGBY_LEAGUE",
+            "eventCount": 6,
+            "secondsToNextEvent": 713,
+            "termKey": "nrl__w_"
+          }
+        ],
+        "sport": "RUGBY_LEAGUE",
+        "eventCount": 25,
+        "secondsToNextEvent": 713,
+        "termKey": "rugby_league"
+      },
+      {
+        "id": 1000093230,
+        "name": "Rugby Union",
+        "boCount": 125,
+        "englishName": "Rugby Union",
+        "groups": [
+          {
+            "id": 1000093759,
+            "name": "Six Nations Championship",
+            "boCount": 1,
+            "englishName": "Six Nations Championship",
+            "sport": "RUGBY_UNION",
+            "eventCount": 1,
+            "termKey": "six_nations_championship",
+            "sortOrder": "1"
+          },
+          {
+            "id": 2000075952,
+            "name": "European Champions Cup",
+            "boCount": 1,
+            "englishName": "European Champions Cup",
+            "sport": "RUGBY_UNION",
+            "eventCount": 1,
+            "termKey": "european_champions_cup",
+            "sortOrder": "2"
+          },
+          {
+            "id": 2000050248,
+            "name": "United Rugby Championship",
+            "boCount": 35,
+            "englishName": "United Rugby Championship",
+            "sport": "RUGBY_UNION",
+            "eventCount": 9,
+            "termKey": "united_rugby_championship",
+            "sortOrder": "3"
+          },
+          {
+            "id": 1000465378,
+            "name": "England",
+            "boCount": 36,
+            "englishName": "England",
+            "groups": [
+              {
+                "id": 1000281175,
+                "name": "Premiership",
+                "boCount": 36,
+                "englishName": "Premiership",
+                "sport": "RUGBY_UNION",
+                "eventCount": 6,
+                "termKey": "premiership"
+              }
+            ],
+            "sport": "RUGBY_UNION",
+            "eventCount": 6,
+            "termKey": "england",
+            "sortOrder": "4"
+          },
+          {
+            "id": 2000055709,
+            "name": "NZ NPC",
+            "boCount": 16,
+            "englishName": "NZ NPC",
+            "sport": "RUGBY_UNION",
+            "eventCount": 1,
+            "termKey": "nz_npc",
+            "sortOrder": "5"
+          },
+          {
+            "id": 1000465470,
+            "name": "France",
+            "boCount": 35,
+            "englishName": "France",
+            "groups": [
+              {
+                "id": 1000094823,
+                "name": "Top 14",
+                "boCount": 35,
+                "englishName": "Top 14",
+                "sport": "RUGBY_UNION",
+                "eventCount": 5,
+                "termKey": "top_14",
+                "sortOrder": "1"
+              }
+            ],
+            "sport": "RUGBY_UNION",
+            "eventCount": 5,
+            "termKey": "france",
+            "sortOrder": "6"
+          },
+          {
+            "id": 1000093963,
+            "name": "Rugby World Cup 2027",
+            "boCount": 1,
+            "englishName": "Rugby World Cup 2027",
+            "sport": "RUGBY_UNION",
+            "eventCount": 1,
+            "termKey": "rugby_world_cup_2027"
+          }
+        ],
+        "sport": "RUGBY_UNION",
+        "eventCount": 24,
+        "termKey": "rugby_union"
+      },
+      {
+        "id": 1000093176,
+        "name": "Snooker",
+        "boCount": 4,
+        "englishName": "Snooker",
+        "groups": [
+          {
+            "id": 1000093920,
+            "name": "World Championship",
+            "boCount": 1,
+            "englishName": "World Championship",
+            "sport": "SNOOKER",
+            "eventCount": 1,
+            "termKey": "world_championship",
+            "sortOrder": "3"
+          },
+          {
+            "id": 1000093843,
+            "name": "The Masters",
+            "boCount": 1,
+            "englishName": "The Masters",
+            "sport": "SNOOKER",
+            "eventCount": 1,
+            "termKey": "the_masters"
+          },
+          {
+            "id": 1000093884,
+            "name": "UK Championship",
+            "boCount": 1,
+            "englishName": "UK Championship",
+            "sport": "SNOOKER",
+            "eventCount": 1,
+            "termKey": "uk_championship"
+          },
+          {
+            "id": 2010202614,
+            "name": "Xi'an Grand Prix",
+            "boCount": 1,
+            "englishName": "Xi'an Grand Prix",
+            "sport": "SNOOKER",
+            "eventCount": 1,
+            "termKey": "xi_an_grand_prix"
+          }
+        ],
+        "sport": "SNOOKER",
+        "eventCount": 4,
+        "termKey": "snooker"
+      },
+      {
+        "id": 1000093215,
+        "name": "Table Tennis",
+        "boCount": 62,
+        "englishName": "Table Tennis",
+        "groups": [
+          {
+            "id": 2010132603,
+            "name": "Czech Republic",
+            "boCount": 42,
+            "englishName": "Czech Republic",
+            "groups": [
+              {
+                "id": 2010132604,
+                "name": "Czech Liga Pro",
+                "boCount": 42,
+                "englishName": "Czech Liga Pro",
+                "sport": "TABLE_TENNIS",
+                "eventCount": 123,
+                "termKey": "czech_liga_pro"
+              }
+            ],
+            "sport": "TABLE_TENNIS",
+            "eventCount": 123,
+            "termKey": "czech_republic",
+            "sortOrder": "1"
+          },
+          {
+            "id": 2010132631,
+            "name": "TT Elite Series",
+            "boCount": 20,
+            "englishName": "TT Elite Series",
+            "sport": "TABLE_TENNIS",
+            "eventCount": 148,
+            "termKey": "tt_elite_series",
+            "sortOrder": "2"
+          }
+        ],
+        "sport": "TABLE_TENNIS",
+        "eventCount": 327,
+        "termKey": "table_tennis"
+      },
+      {
+        "id": 1000093214,
+        "name": "Volleyball",
+        "boCount": 2,
+        "englishName": "Volleyball",
+        "groups": [
+          {
+            "id": 2000055947,
+            "name": "Denmark",
+            "boCount": 2,
+            "englishName": "Denmark",
+            "groups": [
+              {
+                "id": 2000055948,
+                "name": "VolleyLigaen",
+                "boCount": 2,
+                "englishName": "VolleyLigaen",
+                "sport": "VOLLEYBALL",
+                "eventCount": 1,
+                "termKey": "volleyligaen",
+                "sortOrder": "1"
+              }
+            ],
+            "sport": "VOLLEYBALL",
+            "eventCount": 1,
+            "termKey": "denmark"
+          }
+        ],
+        "sport": "VOLLEYBALL",
+        "eventCount": 3,
+        "termKey": "volleyball"
+      }
+    ],
+    "sport": "NOT-SPECIFIED",
+    "eventCount": 7644
+  }
+}

@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BallyBet Analytics Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+        .glass {
+            background: rgba(30, 41, 59, 0.5);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(148, 163, 184, 0.1);
+        }
+        .tab-active {
+            background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+            box-shadow: 0 4px 20px rgba(59, 130, 246, 0.4);
+        }
+        .odds-positive { color: #10b981; }
+        .odds-negative { color: #ef4444; }
+        .pulse-dot {
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: .5; }
+        }
+        .card-hover:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+        .scrollbar-thin::-webkit-scrollbar {
+            width: 6px;
+        }
+        .scrollbar-thin::-webkit-scrollbar-track {
+            background: rgba(51, 65, 85, 0.3);
+        }
+        .scrollbar-thin::-webkit-scrollbar-thumb {
+            background: rgba(148, 163, 184, 0.5);
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body class="text-gray-100 min-h-screen p-4">
+    
+    <!-- Header -->
+    <header class="glass rounded-2xl p-6 mb-6 shadow-2xl">
+        <div class="flex items-center justify-between">
+            <div class="flex items-center space-x-4">
+                <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center">
+                    <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+                    </svg>
+                </div>
+                <div>
+                    <h1 class="text-3xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+                        BallyBet Analytics
+                    </h1>
+                    <p class="text-gray-400 text-sm">Real-time betting data dashboard</p>
+                </div>
+            </div>
+            <div class="flex items-center space-x-3">
+                <div class="flex items-center space-x-2 px-4 py-2 bg-slate-700/50 rounded-lg">
+                    <div class="w-2 h-2 bg-green-500 rounded-full pulse-dot"></div>
+                    <span class="text-sm text-gray-300">Live</span>
+                </div>
+                <div class="text-right text-sm">
+                    <div class="text-gray-400">Last Updated</div>
+                    <div id="lastUpdate" class="text-gray-200 font-semibold">--:--:--</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Stats Cards -->
+    <div id="statsCards" class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 mb-6">
+        <!-- Stats will be inserted here -->
+    </div>
+
+    <!-- Navigation Tabs -->
+    <div class="glass rounded-2xl p-2 mb-6 shadow-2xl">
+        <div class="flex space-x-2 overflow-x-auto">
+
+            <button onclick="switchTab('pregame')" class="tab-btn px-6 py-3 rounded-xl font-semibold transition-all duration-300 hover:bg-slate-700/50 whitespace-nowrap" data-tab="pregame">
+                🎯 Pregame
+            </button>
+            <button onclick="switchTab('live')" class="tab-btn px-6 py-3 rounded-xl font-semibold transition-all duration-300 hover:bg-slate-700/50 whitespace-nowrap" data-tab="live">
+                🔴 Live
+            </button>
+            <button onclick="switchTab('futures')" class="tab-btn px-6 py-3 rounded-xl font-semibold transition-all duration-300 hover:bg-slate-700/50 whitespace-nowrap" data-tab="futures">
+                🏆 Futures
+            </button>
+            <button onclick="switchTab('props')" class="tab-btn px-6 py-3 rounded-xl font-semibold transition-all duration-300 hover:bg-slate-700/50 whitespace-nowrap" data-tab="props">
+                👤 Player Props
+            </button>
+        </div>
+    </div>
+
+    <!-- Content Area -->
+    <div class="glass rounded-2xl p-6 shadow-2xl">
+        
+
+        <!-- Pregame Tab -->
+        <div id="pregame-content" class="tab-content hidden">
+            <div class="flex justify-between items-center mb-6">
+                <h2 class="text-2xl font-bold flex items-center">
+                    <span class="w-1 h-8 bg-blue-500 rounded mr-3"></span>
+                    Upcoming Games
+                </h2>
+                <select id="sportFilter" class="bg-slate-700 border border-slate-600 rounded-lg px-4 py-2 text-white" onchange="loadPregameGames()">
+                    <option value="">All Sports</option>
+                </select>
+            </div>
+            <div id="pregameGames" class="space-y-4 max-h-[600px] overflow-y-auto scrollbar-thin">
+                <!-- Games will be inserted here -->
+            </div>
+        </div>
+
+        <!-- Live Tab -->
+        <div id="live-content" class="tab-content hidden">
+            <h2 class="text-2xl font-bold mb-6 flex items-center">
+                <span class="w-1 h-8 bg-red-500 rounded mr-3"></span>
+                Live Games
+                <span class="ml-3 px-3 py-1 bg-red-500/20 text-red-400 rounded-full text-sm font-normal">Auto-refresh: 10s</span>
+            </h2>
+            <div id="liveGames" class="space-y-4 max-h-[600px] overflow-y-auto scrollbar-thin">
+                <!-- Live games will be inserted here -->
+            </div>
+        </div>
+
+        <!-- Futures Tab -->
+        <div id="futures-content" class="tab-content hidden">
+            <h2 class="text-2xl font-bold mb-6 flex items-center">
+                <span class="w-1 h-8 bg-yellow-500 rounded mr-3"></span>
+                Futures Markets
+            </h2>
+            <div id="futuresMarkets" class="space-y-6 max-h-[600px] overflow-y-auto scrollbar-thin">
+                <!-- Futures will be inserted here -->
+            </div>
+        </div>
+
+        <!-- Props Tab -->
+        <div id="props-content" class="tab-content hidden">
+            <div class="flex justify-between items-center mb-6">
+                <h2 class="text-2xl font-bold flex items-center">
+                    <span class="w-1 h-8 bg-purple-500 rounded mr-3"></span>
+                    Player Props
+                </h2>
+                <select id="leagueFilter" class="bg-slate-700 border border-slate-600 rounded-lg px-4 py-2 text-white" onchange="loadProps()">
+                    <option value="">All Leagues</option>
+                </select>
+            </div>
+            <div id="propsGames" class="space-y-6 max-h-[600px] overflow-y-auto scrollbar-thin">
+                <!-- Props will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = 'http://localhost:8000/api';
+        let oddsChart, sportsChart;
+        let liveRefreshInterval;
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            updateTimestamp();
+            setInterval(updateTimestamp, 1000);
+        });
+
+        function updateTimestamp() {
+            const now = new Date();
+            document.getElementById('lastUpdate').textContent = now.toLocaleTimeString();
+        }
+
+        function switchTab(tab) {
+            // Update buttons
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.classList.remove('tab-active');
+            });
+            document.querySelector(`[data-tab="${tab}"]`).classList.add('tab-active');
+
+            // Update content
+            document.querySelectorAll('.tab-content').forEach(content => {
+                content.classList.add('hidden');
+            });
+            document.getElementById(`${tab}-content`).classList.remove('hidden');
+
+            // Stop live refresh when leaving live tab
+            if (liveRefreshInterval) {
+                clearInterval(liveRefreshInterval);
+                liveRefreshInterval = null;
+            }
+
+            // Load data for the tab
+            switch(tab) {
+                case 'pregame':
+                    loadPregameGames();
+                    loadSports();
+                    break;
+                case 'live':
+                    loadLiveGames();
+                    liveRefreshInterval = setInterval(loadLiveGames, 10000);
+                    break;
+                case 'futures':
+                    loadFutures();
+                    break;
+                case 'props':
+                    loadProps();
+                    loadLeagues();
+                    break;
+            }
+        }
+
+       
+        function createOddsChart(data) {
+            const ctx = document.getElementById('oddsDistChart');
+            if (oddsChart) oddsChart.destroy();
+            
+            oddsChart = new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Pregame', 'Live', 'Futures', 'Props'],
+                    datasets: [{
+                        data: [
+                            data.pregame_odds || 0,
+                            data.live_odds || 0,
+                            data.futures_odds || 0,
+                            data.props_odds || 0
+                        ],
+                        backgroundColor: [
+                            'rgba(59, 130, 246, 0.8)',
+                            'rgba(239, 68, 68, 0.8)',
+                            'rgba(234, 179, 8, 0.8)',
+                            'rgba(168, 85, 247, 0.8)'
+                        ],
+                        borderWidth: 0
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: true,
+                    plugins: {
+                        legend: { 
+                            position: 'bottom',
+                            labels: { color: '#e2e8f0', font: { size: 12 } }
+                        },
+                        title: {
+                            display: true,
+                            text: 'Odds Distribution',
+                            color: '#e2e8f0',
+                            font: { size: 16, weight: 'bold' }
+                        }
+                    }
+                }
+            });
+        }
+
+        function createSportsChart(data) {
+            const ctx = document.getElementById('sportsChart');
+            if (sportsChart) sportsChart.destroy();
+            
+            sportsChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Pregame', 'Live', 'Props'],
+                    datasets: [{
+                        label: 'Games',
+                        data: [
+                            data.pregame_games || 0,
+                            data.live_games || 0,
+                            data.props_games || 0
+                        ],
+                        backgroundColor: [
+                            'rgba(59, 130, 246, 0.8)',
+                            'rgba(239, 68, 68, 0.8)',
+                            'rgba(168, 85, 247, 0.8)'
+                        ],
+                        borderRadius: 8,
+                        borderWidth: 0
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: true,
+                    plugins: {
+                        legend: { display: false },
+                        title: {
+                            display: true,
+                            text: 'Games by Type',
+                            color: '#e2e8f0',
+                            font: { size: 16, weight: 'bold' }
+                        }
+                    },
+                    scales: {
+                        y: { 
+                            beginAtZero: true,
+                            ticks: { color: '#94a3b8' },
+                            grid: { color: 'rgba(148, 163, 184, 0.1)' }
+                        },
+                        x: { 
+                            ticks: { color: '#94a3b8' },
+                            grid: { display: false }
+                        }
+                    }
+                }
+            });
+        }
+
+        async function loadSports() {
+            try {
+                const response = await fetch(`${API_BASE}/pregame/sports`);
+                const sports = await response.json();
+                
+                const select = document.getElementById('sportFilter');
+                select.innerHTML = '<option value="">All Sports</option>';
+                sports.forEach(sport => {
+                    select.innerHTML += `<option value="${sport.sport_name}">${sport.sport_name} (${sport.game_count})</option>`;
+                });
+            } catch (error) {
+                console.error('Error loading sports:', error);
+            }
+        }
+
+        async function loadPregameGames() {
+            const sport = document.getElementById('sportFilter')?.value || '';
+            try {
+                const url = sport ? `${API_BASE}/pregame/games?sport=${sport}` : `${API_BASE}/pregame/games`;
+                const response = await fetch(url);
+                const games = await response.json();
+                
+                const container = document.getElementById('pregameGames');
+                if (games.length === 0) {
+                    container.innerHTML = '<div class="text-center text-gray-400 py-8">No pregame games found</div>';
+                    return;
+                }
+                
+                container.innerHTML = games.map(game => `
+                    <div class="bg-slate-800/50 rounded-xl p-5 card-hover transition-all duration-300">
+                        <div class="flex justify-between items-start mb-4">
+                            <div>
+                                <div class="text-sm text-gray-400 mb-1">${game.league_name || 'Unknown League'}</div>
+                                <div class="text-xl font-bold">${game.home_team} vs ${game.away_team}</div>
+                                <div class="text-sm text-gray-400 mt-1">${new Date(game.start_time).toLocaleString()}</div>
+                            </div>
+                            <span class="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm font-semibold">${game.sport_name}</span>
+                        </div>
+                        ${renderOdds(game.odds)}
+                    </div>
+                `).join('');
+            } catch (error) {
+                console.error('Error loading pregame games:', error);
+                document.getElementById('pregameGames').innerHTML = '<div class="text-center text-red-400 py-8">Error loading games</div>';
+            }
+        }
+
+        function renderOdds(odds) {
+            let html = '<div class="grid grid-cols-1 md:grid-cols-3 gap-3">';
+            
+            if (odds.moneyline && Object.keys(odds.moneyline).length > 0) {
+                html += '<div class="bg-slate-700/50 rounded-lg p-3"><div class="text-xs text-gray-400 mb-2 font-semibold">MONEYLINE</div>';
+                for (const [key, value] of Object.entries(odds.moneyline)) {
+                    if (value.price) {
+                        html += `<div class="flex justify-between py-1"><span class="capitalize">${key}</span><span class="font-bold ${value.price > 2 ? 'odds-positive' : 'odds-negative'}">${value.price.toFixed(2)}</span></div>`;
+                    }
+                }
+                html += '</div>';
+            }
+            
+            if (odds.spread && Object.keys(odds.spread).length > 0) {
+                html += '<div class="bg-slate-700/50 rounded-lg p-3"><div class="text-xs text-gray-400 mb-2 font-semibold">SPREAD</div>';
+                for (const [key, value] of Object.entries(odds.spread)) {
+                    if (value.price) {
+                        html += `<div class="flex justify-between py-1"><span class="capitalize">${key} ${value.points ? (value.points > 0 ? '+' : '') + value.points : ''}</span><span class="font-bold">${value.price.toFixed(2)}</span></div>`;
+                    }
+                }
+                html += '</div>';
+            }
+            
+            if (odds.total && Object.keys(odds.total).length > 0) {
+                html += '<div class="bg-slate-700/50 rounded-lg p-3"><div class="text-xs text-gray-400 mb-2 font-semibold">TOTAL</div>';
+                for (const [key, value] of Object.entries(odds.total)) {
+                    if (value.price) {
+                        html += `<div class="flex justify-between py-1"><span class="capitalize">${key} ${value.points || ''}</span><span class="font-bold">${value.price.toFixed(2)}</span></div>`;
+                    }
+                }
+                html += '</div>';
+            }
+            
+            html += '</div>';
+            return html;
+        }
+
+        async function loadLiveGames() {
+            try {
+                const response = await fetch(`${API_BASE}/live/games`);
+                const games = await response.json();
+                
+                const container = document.getElementById('liveGames');
+                if (games.length === 0) {
+                    container.innerHTML = '<div class="text-center text-gray-400 py-8">No live games at the moment</div>';
+                    return;
+                }
+                
+                container.innerHTML = games.map(game => `
+                    <div class="bg-slate-800/50 rounded-xl p-5 border-l-4 border-red-500">
+                        <div class="flex justify-between items-start mb-4">
+                            <div class="flex-1">
+                                <div class="text-sm text-gray-400 mb-1">${game.league_name || 'Unknown League'}</div>
+                                <div class="grid grid-cols-2 gap-4">
+                                    <div>
+                                        <div class="text-lg font-bold">${game.home_team}</div>
+                                        <div class="text-3xl font-bold text-blue-400">${game.home_score || 0}</div>
+                                    </div>
+                                    <div>
+                                        <div class="text-lg font-bold">${game.away_team}</div>
+                                        <div class="text-3xl font-bold text-blue-400">${game.away_score || 0}</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-right">
+                                <span class="px-3 py-1 bg-red-500/20 text-red-400 rounded-full text-sm font-semibold inline-block mb-2">LIVE</span>
+                                ${game.period ? `<div class="text-sm text-gray-400">${game.period} ${game.minute ? game.minute + "'" : ''}</div>` : ''}
+                            </div>
+                        </div>
+                        ${renderOdds(game.odds || {})}
+                        ${game.statistics && game.statistics.length > 0 ? renderStats(game.statistics) : ''}
+                    </div>
+                `).join('');
+            } catch (error) {
+                console.error('Error loading live games:', error);
+            }
+        }
+
+        function renderStats(stats) {
+            if (!stats || stats.length === 0) return '';
+            
+            let html = '<div class="mt-4 pt-4 border-t border-slate-600"><div class="text-xs text-gray-400 mb-2 font-semibold">MATCH STATS</div><div class="grid grid-cols-3 gap-2">';
+            
+            stats.forEach(stat => {
+                html += `
+                    <div class="bg-slate-700/30 rounded p-2 text-center">
+                        <div class="text-xs text-gray-400 mb-1">${stat.stat_type}</div>
+                        <div class="font-bold">${stat.home_value} - ${stat.away_value}</div>
+                    </div>
+                `;
+            });
+            
+            html += '</div></div>';
+            return html;
+        }
+
+        async function loadFutures() {
+            try {
+                const response = await fetch(`${API_BASE}/futures/competitions`);
+                const competitions = await response.json();
+                
+                const container = document.getElementById('futuresMarkets');
+                if (competitions.length === 0) {
+                    container.innerHTML = '<div class="text-center text-gray-400 py-8">No futures markets available</div>';
+                    return;
+                }
+                
+                container.innerHTML = competitions.map(comp => `
+                    <div class="bg-slate-800/50 rounded-xl p-5 card-hover transition-all duration-300">
+                        <div class="flex justify-between items-start mb-4">
+                            <div>
+                                <h3 class="text-xl font-bold mb-1">${comp.competition_name}</h3>
+                                <div class="text-sm text-gray-400">${comp.sport}</div>
+                            </div>
+                            <span class="px-3 py-1 bg-yellow-500/20 text-yellow-400 rounded-full text-sm font-semibold">Futures</span>
+                        </div>
+                        ${renderFuturesOdds(comp.odds)}
+                    </div>
+                `).join('');
+            } catch (error) {
+                console.error('Error loading futures:', error);
+            }
+        }
+
+        function renderFuturesOdds(odds) {
+            if (!odds || odds.length === 0) return '<div class="text-gray-400 text-sm">No odds available</div>';
+            
+            const groupedByMarket = {};
+            odds.forEach(odd => {
+                if (!groupedByMarket[odd.market_name]) {
+                    groupedByMarket[odd.market_name] = [];
+                }
+                groupedByMarket[odd.market_name].push(odd);
+            });
+            
+            let html = '';
+            for (const [market, marketOdds] of Object.entries(groupedByMarket)) {
+                html += `<div class="mb-4"><div class="text-sm font-semibold text-gray-300 mb-2">${market}</div>`;
+                html += '<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">';
+                marketOdds.slice(0, 8).forEach(odd => {
+                    html += `
+                        <div class="bg-slate-700/50 rounded-lg p-3 hover:bg-slate-700 transition">
+                            <div class="text-sm mb-1">${odd.participant_name}</div>
+                            <div class="font-bold text-lg ${odd.price < 5 ? 'text-yellow-400' : 'text-green-400'}">${odd.price.toFixed(2)}</div>
+                        </div>
+                    `;
+                });
+                html += '</div></div>';
+            }
+            return html;
+        }
+
+        async function loadLeagues() {
+            try {
+                const response = await fetch(`${API_BASE}/props/leagues`);
+                const leagues = await response.json();
+                
+                const select = document.getElementById('leagueFilter');
+                select.innerHTML = '<option value="">All Leagues</option>';
+                leagues.forEach(league => {
+                    select.innerHTML += `<option value="${league.league_name}">${league.league_name} (${league.game_count})</option>`;
+                });
+            } catch (error) {
+                console.error('Error loading leagues:', error);
+            }
+        }
+
+        async function loadProps() {
+            const league = document.getElementById('leagueFilter')?.value || '';
+            try {
+                const url = league ? `${API_BASE}/props/games?league=${league}` : `${API_BASE}/props/games`;
+                const response = await fetch(url);
+                const games = await response.json();
+                
+                const container = document.getElementById('propsGames');
+                if (games.length === 0) {
+                    container.innerHTML = '<div class="text-center text-gray-400 py-8">No player props available</div>';
+                    return;
+                }
+                
+                container.innerHTML = games.map(game => `
+                    <div class="bg-slate-800/50 rounded-xl p-5 card-hover transition-all duration-300">
+                        <div class="flex justify-between items-start mb-4">
+                            <div>
+                                <div class="text-sm text-gray-400 mb-1">${game.league_name}</div>
+                                <h3 class="text-xl font-bold">${game.match_name}</h3>
+                                <div class="text-sm text-gray-400 mt-1">${new Date(game.start_time).toLocaleString()}</div>
+                            </div>
+                            <span class="px-3 py-1 bg-purple-500/20 text-purple-400 rounded-full text-sm font-semibold">${game.sport_name}</span>
+                        </div>
+                        ${renderProps(game.props)}
+                    </div>
+                `).join('');
+            } catch (error) {
+                console.error('Error loading props:', error);
+            }
+        }
+
+        function renderProps(props) {
+            if (!props || props.length === 0) return '<div class="text-gray-400 text-sm">No props available</div>';
+            
+            const groupedByPlayer = {};
+            props.forEach(prop => {
+                if (!groupedByPlayer[prop.player_name]) {
+                    groupedByPlayer[prop.player_name] = [];
+                }
+                groupedByPlayer[prop.player_name].push(prop);
+            });
+            
+            let html = '<div class="space-y-3">';
+            for (const [player, playerProps] of Object.entries(groupedByPlayer).slice(0, 5)) {
+                html += `<div class="bg-slate-700/50 rounded-lg p-3">
+                    <div class="font-semibold mb-2 text-purple-300">${player}</div>
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-2">`;
+                
+                playerProps.slice(0, 6).forEach(prop => {
+                    html += `
+                        <div class="bg-slate-600/50 rounded p-2">
+                            <div class="text-xs text-gray-400 mb-1">${prop.market_name}</div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-sm">${prop.label} ${prop.line ? prop.line : ''}</span>
+                                <span class="font-bold text-green-400">${prop.price ? prop.price.toFixed(2) : 'N/A'}</span>
+                            </div>
+                        </div>
+                    `;
+                });
+                
+                html += '</div></div>';
+            }
+            html += '</div>';
+            return html;
+        }
+    </script>
+
+</body>
+</html>
